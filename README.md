@@ -22,7 +22,7 @@
 
 ## สัญญาอนุญาต
 
-- ซอร์สใน `Office/` มาจากโปรเจกต์ของ storytold ใต้สัญญา MIT หรือ Apache-2.0 ตามที่ระบุในแต่ละโฟลเดอร์ (ไฟล์ `LICENSE-*` และ `NOTICE`) ส่วนที่เพิ่มเข้าไปใช้สัญญาเดียวกัน
+- ซอร์สใน `Office/` (ไม่รวมโลโก้ ArtCraft ซึ่งเป็นเครื่องหมายการค้า ดู `Office/README-TH.md`) มาจากโปรเจกต์ของ storytold ใต้สัญญา MIT หรือ Apache-2.0 ตามที่ระบุในแต่ละโฟลเดอร์ (ไฟล์ `LICENSE-*` และ `NOTICE`) ส่วนที่เพิ่มเข้าไปใช้สัญญาเดียวกัน
 - `SCP2/Lib/PdfSharp.dll` คือ PDFsharp (MIT) ดู `SCP2/Lib/PDFsharp-LICENSE.txt`
 - ฟอนต์ Sarabun ใช้ SIL Open Font License 1.1 (`SCP2/Fonts/OFL.txt`)
 - โค้ด SCPclear เอง ยังไม่ได้กำหนดสัญญาอนุญาต
