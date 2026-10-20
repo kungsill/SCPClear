@@ -1,0 +1,7 @@
+target/
+dist/
+*.log
+SCPclear-settings.json
+SCPclear-history.json
+*.zip
+.claude/

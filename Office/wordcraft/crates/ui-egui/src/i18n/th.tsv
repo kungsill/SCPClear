@@ -1,0 +1,2658 @@
+# Thai (th) interface catalog. Columns, separated by a TAB:
+#   context <TAB> English source <TAB> translation
+#   context    usually empty. `preview` words sample text inside rendered previews (the Design
+#              tab's style-set tiles), which must fit a small tile; it falls back to the plain entry.
+#   source     the English text exactly as in the code (tl!(...), ribbon labels, command labels)
+#   escapes    \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns, and a
+#              trailing "…" in one needs one in the other.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English label in ordinary
+# Thai computing vocabulary. No Microsoft Word (or other product) localisation, string table or
+# translated UI was consulted or copied; add entries the same way.
+# Product, format and technology names (WordCraft, PDF, Markdown, MCP …) stay in Latin letters.
+# Entries identical to the English (paper sizes, sample text, codes) are left out on purpose.
+
+	% of all commits	% ของคอมมิตทั้งหมด
+	(All)	(ทั้งหมด)
+	(Custom)	(กำหนดเอง)
+	(no style)	(ไม่มีสไตล์)
+	(no suggestions)	(ไม่มีคำแนะนำ)
+	(none)	(ไม่มี)
+	(normal text)	(ข้อความปกติ)
+	(not matched)	(ไม่ตรงกัน)
+	(picture or object)	(รูปภาพหรือวัตถุ)
+	0 or More Characters	ตัวอักษร 0 ตัวขึ้นไป
+	1. Formatting restrictions	1. ข้อจำกัดการจัดรูปแบบ
+	1.5 Line Spacing	ระยะห่างบรรทัด 1.5
+	1/4 Em Space	ช่องว่าง 1/4 Em
+	1×2 Empty Matrix	เมทริกซ์ว่าง 1×2
+	1×3 Empty Matrix	เมทริกซ์ว่าง 1×3
+	2. Editing restrictions	2. ข้อจำกัดการแก้ไข
+	2×1 Empty Matrix	เมทริกซ์ว่าง 2×1
+	2×2 Determinant	ดีเทอร์มิแนนต์ 2×2
+	2×2 Empty Matrix	เมทริกซ์ว่าง 2×2
+	2×2 Identity Matrix	เมทริกซ์เอกลักษณ์ 2×2
+	2×2 Identity Matrix (sparse)	เมทริกซ์เอกลักษณ์ 2×2 (แบบเบาบาง)
+	2×2 Matrix in Brackets	เมทริกซ์ 2×2 ในวงเล็บเหลี่ยม
+	2×2 Matrix in Double Bars	เมทริกซ์ 2×2 ในเส้นคู่
+	2×2 Matrix in Parentheses	เมทริกซ์ 2×2 ในวงเล็บ
+	2×3 Empty Matrix	เมทริกซ์ว่าง 2×3
+	3-D	3 มิติ
+	3. Start enforcement	3. เริ่มบังคับใช้
+	3×1 Empty Matrix	เมทริกซ์ว่าง 3×1
+	3×2 Empty Matrix	เมทริกซ์ว่าง 3×2
+	3×3 Empty Matrix	เมทริกซ์ว่าง 3×3
+	3×3 Identity Matrix	เมทริกซ์เอกลักษณ์ 3×3
+	3×3 Identity Matrix (sparse)	เมทริกซ์เอกลักษณ์ 3×3 (แบบเบาบาง)
+	<< Less	<< น้อยลง
+	<< Remove	<< นำออก
+	A file dialog is already open.	มีกล่องโต้ตอบไฟล์เปิดอยู่แล้ว
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	โปรแกรมประมวลผลคำโอเพนซอร์สฟรี เขียนขึ้นใหม่ทั้งหมดด้วย Rust\nส่วนหนึ่งของ Crafting Apps จากทีม ArtCraft
+	A mail merge field	ฟิลด์การพิมพ์เวียน
+	A numbered sequence (figures, tables…)	ลำดับหมายเลข (รูปภาพ ตาราง…)
+	A password is required to open this document.	ต้องใช้รหัสผ่านเพื่อเปิดเอกสารนี้
+	A table of contents	สารบัญ
+	A xor B	A xor B
+	A, B, C, …	A, B, C, …
+	a, b, c, …	a, b, c, …
+	About	เกี่ยวกับ
+	About WordCraft	เกี่ยวกับ WordCraft
+	Above Chart	เหนือแผนภูมิ
+	Above the item	เหนือรายการ
+	Absolute value cases	กรณีค่าสัมบูรณ์
+	Accent	สีเน้น
+	Accent Gradient	การไล่ระดับสีเน้น
+	Accent with Reflection	สีเน้นพร้อมการสะท้อน
+	Accent {n}	สีเน้น {n}
+	Accents	เครื่องหมายเน้นเสียง
+	Accept	ยอมรับ
+	Accept All Changes	ยอมรับการเปลี่ยนแปลงทั้งหมด
+	Accept This Change	ยอมรับการเปลี่ยนแปลงนี้
+	Accessed on	เข้าถึงเมื่อ
+	Accessibility	การเข้าถึง
+	Accessibility Pane	บานหน้าต่างการเข้าถึง
+	Account	บัญชี
+	Acute	เครื่องหมายอะคิวต์
+	Add	เพิ่ม
+	Add >>	เพิ่ม >>
+	Add a comment	เพิ่มความคิดเห็น
+	Add a Table	เพิ่มตาราง
+	Add at least one field.	เพิ่มอย่างน้อยหนึ่งฟิลด์
+	Add Chart Element	เพิ่มองค์ประกอบแผนภูมิ
+	Add Condition	เพิ่มเงื่อนไข
+	Add Field	เพิ่มฟิลด์
+	Add Font…	เพิ่มแบบอักษร…
+	Add line numbering	เพิ่มหมายเลขบรรทัด
+	Add New Source…	เพิ่มแหล่งข้อมูลใหม่…
+	Add Object to Selection	เพิ่มวัตถุในส่วนที่เลือก
+	Add Pen	เพิ่มปากกา
+	Add Row	เพิ่มแถว
+	Add Series	เพิ่มชุดข้อมูล
+	Add Shape	เพิ่มรูปร่าง
+	Add Space Before Paragraph	เพิ่มระยะห่างก่อนย่อหน้า
+	Add space between Asian and Latin text	เพิ่มช่องว่างระหว่างอักษรเอเชียกับอักษรละติน
+	Add space between Asian text and numbers	เพิ่มช่องว่างระหว่างอักษรเอเชียกับตัวเลข
+	Add tab stop at:	เพิ่มจุดตั้งระยะแท็บที่:
+	Add Text	เพิ่มข้อความ
+	Add the chapter number	เพิ่มหมายเลขบท
+	Add to Dictionary	เพิ่มในพจนานุกรม
+	Add to Document	เพิ่มในเอกสาร
+	Add to Quick Access Toolbar	เพิ่มในแถบเครื่องมือด่วน
+	Add to Style Gallery	เพิ่มในแกลเลอรีสไตล์
+	Add whether it is above or below	เพิ่มว่าอยู่ด้านบนหรือด้านล่าง
+	Add/Edit\nBibliography	เพิ่ม/แก้ไข\nบรรณานุกรม
+	Add/Edit\nCitation	เพิ่ม/แก้ไข\nการอ้างอิง
+	Add\nNote	เพิ่ม\nบันทึก
+	Add\nPen	เพิ่ม\nปากกา
+	Add\nShape	เพิ่ม\nรูปร่าง
+	Added 1 font	เพิ่มแบบอักษร 1 รายการแล้ว
+	Added Fonts	แบบอักษรที่เพิ่มแล้ว
+	Added {n} fonts	เพิ่มแบบอักษร {n} รายการแล้ว
+	Address	ที่อยู่
+	Address Block	บล็อกที่อยู่
+	Address labels	ป้ายที่อยู่
+	Address:	ที่อยู่:
+	Address\nBlock	บล็อก\nที่อยู่
+	Adjust	ปรับ
+	Advanced	ขั้นสูง
+	Advanced Find	ค้นหาขั้นสูง
+	Advanced Find…	ค้นหาขั้นสูง…
+	After:	หลัง:
+	Agents	เอเจนต์
+	Align	จัดแนว
+	Align Bottom Center	ชิดล่างกึ่งกลาง
+	Align Bottom Left	ชิดล่างซ้าย
+	Align Bottom Right	ชิดล่างขวา
+	Align Center	จัดกึ่งกลาง
+	Align Center Left	กึ่งกลางชิดซ้าย
+	Align Center Right	กึ่งกลางชิดขวา
+	Align Left	ชิดซ้าย
+	Align Right	ชิดขวา
+	Align Text	จัดแนวข้อความ
+	Align Top Center	ชิดบนกึ่งกลาง
+	Align Top Left	ชิดบนซ้าย
+	Align Top Right	ชิดบนขวา
+	Aligned at:	จัดแนวที่:
+	Alignment	การจัดแนว
+	Alignment:	การจัดแนว:
+	All	ทั้งหมด
+	All - Linear	ทั้งหมด - เชิงเส้น
+	All - Professional	ทั้งหมด - มืออาชีพ
+	All Borders	เส้นขอบทั้งหมด
+	All Caps	ตัวพิมพ์ใหญ่ทั้งหมด
+	All caps	ตัวพิมพ์ใหญ่ทั้งหมด
+	All Commands	คำสั่งทั้งหมด
+	All files	ไฟล์ทั้งหมด
+	All Fonts	แบบอักษรทั้งหมด
+	All Levels	ทุกระดับ
+	All Markup	เครื่องหมายการแก้ไขทั้งหมด
+	All pages	ทุกหน้า
+	All pages in the range	ทุกหน้าในช่วง
+	All symbol sets	ชุดสัญลักษณ์ทั้งหมด
+	All system fonts are already available.	แบบอักษรระบบทั้งหมดพร้อมใช้งานแล้ว
+	Allow hanging punctuation	อนุญาตให้เครื่องหมายวรรคตอนยื่นออกนอกขอบ
+	Allow Latin text to wrap in the middle of a word	อนุญาตให้อักษรละตินขึ้นบรรทัดใหม่กลางคำ
+	Allow line breaks	อนุญาตให้ตัดบรรทัด
+	Allow row to break across pages	อนุญาตให้แถวคาบเกี่ยวหลายหน้า
+	Alphabetical	ตามลำดับตัวอักษร
+	Alt Text	ข้อความแทนรูปภาพ
+	Alt text	ข้อความแทนรูปภาพ
+	Alt Text Pane	บานหน้าต่างข้อความแทนรูปภาพ
+	Alt:	ข้อความแทน:
+	Alt\nText	ข้อความ\nแทน
+	And	และ
+	Angle Brackets	วงเล็บมุม
+	Angle Brackets with Separator	วงเล็บมุมพร้อมตัวคั่น
+	Angle Brackets with Two Separators	วงเล็บมุมพร้อมตัวคั่นสองตัว
+	Animate the caret (it glides and fades)	เคลื่อนไหวเคอร์เซอร์ (เลื่อนไหลและค่อย ๆ จาง)
+	Animation	ภาพเคลื่อนไหว
+	Animation effects:	เอฟเฟกต์ภาพเคลื่อนไหว:
+	Annotation Reference	การอ้างอิงคำอธิบายประกอบ
+	Annotation Subject	หัวเรื่องคำอธิบายประกอบ
+	Annotation Text	ข้อความคำอธิบายประกอบ
+	Another file	ไฟล์อื่น
+	Any Character	อักขระใดก็ได้
+	Any Digit	ตัวเลขใดก็ได้
+	Any field	ฟิลด์ใดก็ได้
+	Any Letter	ตัวอักษรใดก็ได้
+	Anyone can open this document. Encrypt it with a password to keep it private.	ทุกคนเปิดเอกสารนี้ได้ เข้ารหัสด้วยรหัสผ่านเพื่อเก็บเป็นความลับ
+	Anyone who opens the document will need this password.	ทุกคนที่เปิดเอกสารจะต้องใช้รหัสผ่านนี้
+	APA	APA
+	Apply	ใช้
+	Apply as you type	ใช้ขณะพิมพ์
+	Apply Asian line-breaking rules (kinsoku)	ใช้กฎการตัดบรรทัดของอักษรเอเชีย (คินโซกุ)
+	Apply Character Style	ใช้สไตล์ตัวอักษร
+	Apply formatting to:	ใช้การจัดรูปแบบกับ:
+	Apply Style	ใช้สไตล์
+	Apply Styles	ใช้สไตล์
+	Apply to:	ใช้กับ:
+	Arabic	อาหรับ
+	Arch Down	โค้งลง
+	Arch Up	โค้งขึ้น
+	Area	พื้นที่
+	Arrange	จัดเรียง
+	Arrange\nAll	จัดเรียง\nทั้งหมด
+	Arrow	ลูกศร
+	Arrows	ลูกศร
+	Article I.	บทความที่ I.
+	Artistic Effects	เอฟเฟกต์ศิลปะ
+	As Recommended	ตามที่แนะนำ
+	As you type	ขณะพิมพ์
+	ASAP	ด่วนที่สุด
+	Ascending	น้อยไปมาก
+	Asian text font:	แบบอักษรสำหรับข้อความเอเชีย:
+	Asian Typography	การพิมพ์อักษรเอเชีย
+	Assign	กำหนด
+	At least	อย่างน้อย
+	At least {n}	อย่างน้อย {n}
+	Atelier	อาเทลิเยร์
+	Atmosphere	บรรยากาศ
+	Attach Template	แนบแม่แบบ
+	Attach…	แนบ…
+	Author	ผู้เขียน
+	Auto	อัตโนมัติ
+	Auto ({percent}%)	อัตโนมัติ ({percent}%)
+	AutoCorrect	แก้ไขอัตโนมัติ
+	AutoCorrect Options	ตัวเลือกการแก้ไขอัตโนมัติ
+	AutoFit	ปรับให้พอดีอัตโนมัติ
+	AutoFit behavior	พฤติกรรมการปรับให้พอดี
+	AutoFit Column by Double-Clicking	ปรับคอลัมน์ให้พอดีด้วยการดับเบิลคลิก
+	AutoFit Contents	ปรับให้พอดีกับเนื้อหา
+	AutoFit to contents	ปรับให้พอดีกับเนื้อหา
+	AutoFit to window	ปรับให้พอดีกับหน้าต่าง
+	AutoFit Window	ปรับหน้าต่างให้พอดี
+	AutoFormat As You Type	จัดรูปแบบอัตโนมัติขณะพิมพ์
+	Automatic	อัตโนมัติ
+	Automatic ({language})	อัตโนมัติ ({language})
+	Automatic ({region})	อัตโนมัติ ({region})
+	Automatic bulleted lists	รายการสัญลักษณ์แสดงหัวข้อย่อยอัตโนมัติ
+	Automatic follows your system's language. Menus and commands change; your documents don't.	ตัวเลือกอัตโนมัติจะใช้ภาษาของระบบของคุณ เมนูและคำสั่งจะเปลี่ยนตาม แต่เอกสารของคุณไม่เปลี่ยน
+	Automatic numbered lists	รายการลำดับเลขอัตโนมัติ
+	Automatic Table 1 (3 levels)	สารบัญอัตโนมัติ 1 (3 ระดับ)
+	Automatic Table 2 (2 levels)	สารบัญอัตโนมัติ 2 (2 ระดับ)
+	Automatically hyphenate document	ใส่ยัติภังค์ในเอกสารโดยอัตโนมัติ
+	Automatically Update Document Styles	อัปเดตสไตล์เอกสารโดยอัตโนมัติ
+	Automatically update document styles	อัปเดตสไตล์เอกสารโดยอัตโนมัติ
+	AutoSave	บันทึกอัตโนมัติ
+	AutoSave documents you have saved in WordCraft	บันทึกอัตโนมัติสำหรับเอกสารที่คุณบันทึกใน WordCraft
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	บันทึกอัตโนมัติไม่สำเร็จ: {error} บันทึกเอกสารเพื่อเปิดการบันทึกอัตโนมัติอีกครั้ง
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	เบราว์เซอร์ไม่รองรับการบันทึกอัตโนมัติเพราะเขียนไฟล์ของคุณไม่ได้ การบันทึกจะดาวน์โหลดสำเนาแทน
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	การบันทึกอัตโนมัติเก็บเฉพาะไฟล์ .docx, .odt และ .rtf เท่านั้น {name} เก็บการจัดรูปแบบได้ไม่ครบ บันทึกเป็น .docx เพื่อเปิดการบันทึกอัตโนมัติ
+	AutoSave saves every change to the file (needs a saved document)	บันทึกทุกการเปลี่ยนแปลงลงในไฟล์ (ต้องบันทึกเอกสารไว้ก่อน)
+	AutoSave writes your changes to the file a moment after you stop typing.	การบันทึกอัตโนมัติจะเขียนการเปลี่ยนแปลงของคุณลงไฟล์ครู่หนึ่งหลังจากหยุดพิมพ์
+	AutoText	ข้อความอัตโนมัติ
+	Backspace	Backspace
+	Balloons	ลูกโป่งข้อความ
+	Banded Columns	คอลัมน์สลับสี
+	Banded Rows	แถวสลับสี
+	Bar	แท่ง
+	Base text:	ข้อความพื้นฐาน:
+	Based on: {style}	อ้างอิงจาก: {style}
+	Baseline Dots	จุดบนเส้นฐาน
+	Basic Cycle	วงจรพื้นฐาน
+	Basic List	รายการพื้นฐาน
+	Basic Math	คณิตศาสตร์พื้นฐาน
+	Basic Matrix	เมทริกซ์พื้นฐาน
+	Basic Process	กระบวนการพื้นฐาน
+	Basic Pyramid	พีระมิดพื้นฐาน
+	Basic Radial	แผนภาพรัศมีพื้นฐาน
+	Basic Venn	เวนน์พื้นฐาน
+	Bayes' rule	กฎของเบย์
+	Before:	ก่อน:
+	Beginning of Word	จุดเริ่มต้นของคำ
+	Behind Text	ด้านหลังข้อความ
+	Below text	ใต้ข้อความ
+	Below the item	ใต้รายการ
+	Between	ระหว่าง
+	Bibliography	บรรณานุกรม
+	Binary assets added	เพิ่มไบนารีแอสเซตแล้ว
+	Binary assets removed	นำไบนารีแอสเซตออกแล้ว
+	Binomial Coefficient	สัมประสิทธิ์ทวินาม
+	Binomial Coefficient (angle)	สัมประสิทธิ์ทวินาม (มุม)
+	Binomial Coefficient with Angle Brackets	สัมประสิทธิ์ทวินามพร้อมวงเล็บมุม
+	Binomial expansion of (x+a)ⁿ	การกระจายทวินามของ (x+a)ⁿ
+	Blank	ว่าง
+	Blank (Three Columns)	ว่าง (สามคอลัมน์)
+	Blank document	เอกสารเปล่า
+	Blank Page	หน้าเปล่า
+	Block\nAuthors	บล็อก\nผู้เขียน
+	Blue:	น้ำเงิน:
+	Body Text	เนื้อความ
+	Body text in a short paragraph to show spacing.	ข้อความเนื้อหาในย่อหน้าสั้น ๆ เพื่อแสดงระยะห่าง
+	Bold	ตัวหนา
+	Book	หนังสือ
+	Book title	ชื่อหนังสือ
+	Book Title	ชื่อหนังสือ
+	Bookmark	ที่คั่นหน้า
+	Bookmark name:	ชื่อที่คั่นหน้า:
+	Border lines	เส้นขอบ
+	Border Painter	ตัวระบายเส้นขอบ
+	Border\nPainter	ตัวระบาย\nเส้นขอบ
+	Borders	เส้นขอบ
+	Borders and Shading	เส้นขอบและการแรเงา
+	Borders and Shading…	เส้นขอบและการแรเงา…
+	Both Sides	ทั้งสองด้าน
+	Bottom	ล่าง
+	Bottom Border	เส้นขอบล่าง
+	Bottom Left Cell	เซลล์ล่างซ้าย
+	Bottom Margin	ระยะขอบล่าง
+	Bottom of Page	ท้ายหน้า
+	Bottom Right Cell	เซลล์ล่างขวา
+	Bottom:	ล่าง:
+	Box	กล่อง
+	Boxed Formula	สูตรในกรอบ
+	Boxed Formula (example)	สูตรในกรอบ (ตัวอย่าง)
+	Boxed Formulas	สูตรในกรอบ
+	Braces	วงเล็บปีกกา
+	Braces with Separator	วงเล็บปีกกาพร้อมตัวคั่น
+	Bracket	วงเล็บ
+	Brackets	วงเล็บ
+	Brackets with Separators	วงเล็บพร้อมตัวคั่น
+	Break Link	ตัดการเชื่อมโยง
+	Breaks	ตัวแบ่ง
+	Breve	เครื่องหมายเบรฟ
+	Bring Forward	นำมาข้างหน้า
+	Browse in WordCraft…	เรียกดูใน WordCraft…
+	Browse…	เรียกดู…
+	Building Block Gallery Content Control	ตัวควบคุมเนื้อหาแกลเลอรีบล็อกตัวอย่าง
+	Built-In	ในตัว
+	Built-in style	สไตล์ในตัว
+	Built-in styles can't be deleted.	ไม่สามารถลบสไตล์ในตัวได้
+	Bullet	สัญลักษณ์หัวข้อย่อย
+	Bullet Library	คลังสัญลักษณ์หัวข้อย่อย
+	Bullets	สัญลักษณ์หัวข้อย่อย
+	By author	ตามผู้เขียน
+	Calendar	ปฏิทิน
+	Can't be deleted	ลบไม่ได้
+	can't split at the first row	แบ่งที่แถวแรกไม่ได้
+	Cancel	ยกเลิก
+	Canvas Member	สมาชิกผืนผ้าใบ
+	Capitalize Each Word	ขึ้นต้นทุกคำด้วยตัวพิมพ์ใหญ่
+	Capitalize first letter of sentences	ขึ้นต้นประโยคด้วยตัวพิมพ์ใหญ่
+	Capitalize first letter of table cells	ขึ้นต้นเซลล์ตารางด้วยตัวพิมพ์ใหญ่
+	Capitalize names of days	ขึ้นต้นชื่อวันด้วยตัวพิมพ์ใหญ่
+	Capitalize the first word of a sentence	ขึ้นต้นคำแรกของประโยคด้วยตัวพิมพ์ใหญ่
+	Caption	คำบรรยายภาพ
+	Caption Numbering	การกำหนดหมายเลขคำบรรยายภาพ
+	Caption text	ข้อความคำบรรยายภาพ
+	Caption:	คำบรรยายภาพ:
+	Captions	คำบรรยายภาพ
+	Caret Character	อักขระเคอเรต
+	Case changes	การเปลี่ยนตัวพิมพ์
+	Cases (Three Conditions)	กรณีเงื่อนไข (สามเงื่อนไข)
+	Cases (Two Conditions)	กรณีเงื่อนไข (สองเงื่อนไข)
+	Cases and Stacks	กรณีเงื่อนไขและกองซ้อน
+	Categories	หมวดหมู่
+	Categories:	หมวดหมู่:
+	Category	หมวดหมู่
+	Category {n}	หมวดหมู่ {n}
+	Ceiling	ฟังก์ชันเพดาน
+	Cell	เซลล์
+	Cell Margins	ระยะขอบเซลล์
+	Cell Size	ขนาดเซลล์
+	Cell\nMargins	ระยะขอบ\nเซลล์
+	Center	กึ่งกลาง
+	Centered	จัดกึ่งกลางแล้ว
+	Centered as Group	จัดกึ่งกลางเป็นกลุ่ม
+	Centimeters	เซนติเมตร
+	Change	เปลี่ยน
+	Change Case	เปลี่ยนตัวพิมพ์
+	Change Chart Type	เปลี่ยนชนิดแผนภูมิ
+	Change Colors	เปลี่ยนสี
+	Change in y over change in x	การเปลี่ยนแปลงของ y ต่อการเปลี่ยนแปลงของ x
+	Change Layout	เปลี่ยนเค้าโครง
+	Change List Level	เปลี่ยนระดับรายการ
+	Change Password…	เปลี่ยนรหัสผ่าน…
+	Change Picture	เปลี่ยนรูปภาพ
+	Change Picture…	เปลี่ยนรูปภาพ…
+	Change Shape	เปลี่ยนรูปร่าง
+	Change Structure	เปลี่ยนโครงสร้าง
+	Change to Display	เปลี่ยนเป็นแบบแสดงผล
+	Change to Inline	เปลี่ยนเป็นแบบอินไลน์
+	Change to Level 1	เปลี่ยนเป็นระดับ 1
+	Change to Level 2	เปลี่ยนเป็นระดับ 2
+	Change to Level 3	เปลี่ยนเป็นระดับ 3
+	Change to Level 4	เปลี่ยนเป็นระดับ 4
+	Change to Level 5	เปลี่ยนเป็นระดับ 5
+	Change to Level 6	เปลี่ยนเป็นระดับ 6
+	Change to Level 7	เปลี่ยนเป็นระดับ 7
+	Change to Level 8	เปลี่ยนเป็นระดับ 8
+	Change to Level 9	เปลี่ยนเป็นระดับ 9
+	Change\nChart Type	เปลี่ยน\nชนิดแผนภูมิ
+	Change\nColors	เปลี่ยน\nสี
+	Changed lines:	บรรทัดที่เปลี่ยน:
+	Changes	การเปลี่ยนแปลง
+	Chapter 1	บทที่ 1
+	Chapter in a book	บทในหนังสือ
+	Chapters begin at:	บทเริ่มที่:
+	Character	อักขระ
+	Character Border	เส้นขอบอักขระ
+	Character code:	รหัสอักขระ:
+	Character in Range	อักขระในช่วง
+	Character level	ระดับอักขระ
+	Character Position	ตำแหน่งอักขระ
+	Character Scale	มาตราส่วนอักขระ
+	Character Shading	การแรเงาอักขระ
+	Character Spacing	ระยะห่างอักขระ
+	Character spacing	ระยะห่างอักขระ
+	Character style	สไตล์อักขระ
+	Characters	อักขระ
+	Characters (no spaces)	อักขระ (ไม่รวมช่องว่าง)
+	Characters (with spaces)	อักขระ (รวมช่องว่าง)
+	Characters per line:	อักขระต่อบรรทัด:
+	Chart	แผนภูมิ
+	Chart Design	ออกแบบแผนภูมิ
+	Chart Layouts	เค้าโครงแผนภูมิ
+	Chart Title	ชื่อแผนภูมิ
+	Check	ตรวจสอบ
+	Check Accessibility	ตรวจสอบการเข้าถึง
+	Check Box Content Control	ตัวควบคุมเนื้อหาช่องทำเครื่องหมาย
+	Check Compatibility	ตรวจสอบความเข้ากันได้
+	Check for Errors	ตรวจหาข้อผิดพลาด
+	Check Spelling as You Type	ตรวจการสะกดคำขณะพิมพ์
+	Check spelling as you type	ตรวจการสะกดคำขณะพิมพ์
+	Check\nAccessibility	ตรวจสอบ\nการเข้าถึง
+	Checked styles are allowed:	อนุญาตสไตล์ที่ทำเครื่องหมายไว้:
+	Checked symbol	สัญลักษณ์ที่ทำเครื่องหมาย
+	Chevron Down	ลูกศรลง
+	Chevron Up	ลูกศรขึ้น
+	Chicago	ชิคาโก
+	Chinese (Simplified)	จีน (ตัวย่อ)
+	Chinese (Traditional)	จีน (ตัวเต็ม)
+	Choose a command	เลือกคำสั่ง
+	Choose a shortcut	เลือกแป้นพิมพ์ลัด
+	Choose List Item	เลือกรายการ
+	Choose the sheet that holds the recipients.	เลือกชีตที่เก็บรายชื่อผู้รับ
+	Circle	วงกลม
+	Circle area from its radius	พื้นที่วงกลมจากรัศมี
+	Circled Dot	จุดในวงกลม
+	Circled Plus	บวกในวงกลม
+	Circled Times	คูณในวงกลม
+	Citation Style	รูปแบบการอ้างอิง
+	Citations	การอ้างอิง
+	Citations & Bibliography	การอ้างอิงและบรรณานุกรม
+	City	เมือง
+	Clear	ล้าง
+	Clear All	ล้างทั้งหมด
+	Clear All Formatting	ล้างการจัดรูปแบบทั้งหมด
+	Clear Character Formatting	ล้างการจัดรูปแบบอักขระ
+	Clear Character Style	ล้างสไตล์อักขระ
+	Clear Formatting Level	ล้างระดับการจัดรูปแบบ
+	Clear Paragraph Formatting	ล้างการจัดรูปแบบย่อหน้า
+	Click a border between two cells to merge them. Esc stops.	คลิกเส้นขอบระหว่างสองเซลล์เพื่อรวมเซลล์ กด Esc เพื่อหยุด
+	Click an item to paste it.	คลิกรายการเพื่อวาง
+	Click level to modify:	คลิกระดับเพื่อแก้ไข:
+	Click the empty text box the text should continue in (Esc cancels)	คลิกกล่องข้อความว่างที่ข้อความจะต่อไป (กด Esc เพื่อยกเลิก)
+	Click to switch back to inserting	คลิกเพื่อสลับกลับไปเป็นโหมดแทรก
+	Clipboard	คลิปบอร์ด
+	Clipboard Contents	เนื้อหาในคลิปบอร์ด
+	Clipboard Items	รายการในคลิปบอร์ด
+	Clipboard Pane	บานหน้าต่างคลิปบอร์ด
+	Close	ปิด
+	Close Equation	ปิดสมการ
+	Close Header and Footer	ปิดส่วนหัวและส่วนท้าย
+	Close Outline View	ปิดมุมมองเค้าร่าง
+	Close Outline\nView	ปิดมุมมอง\nเค้าร่าง
+	Clustered Bar	แท่งแบบกลุ่ม
+	Clustered Column	คอลัมน์แบบกลุ่ม
+	Col #:	คอลัมน์ที่:
+	Collapse	ยุบ
+	Collapse Selection	ยุบส่วนที่เลือก
+	Collate copies	เรียงสำเนาตามลำดับชุด
+	Collect entries from:	รวบรวมรายการจาก:
+	Colon Equal	โคลอนเท่ากับ
+	Color	สี
+	Color model:	โมเดลสี:
+	Color only	สีเท่านั้น
+	Color:	สี:
+	Color: {color}	สี: {color}
+	Colorful	หลากสี
+	Colors	สี
+	Colors:	สี:
+	Column	คอลัมน์
+	Column Break	ตัวแบ่งคอลัมน์
+	Column Selection	การเลือกคอลัมน์
+	Column width	ความกว้างคอลัมน์
+	Column {n}	คอลัมน์ {n}
+	Column:	คอลัมน์:
+	Columns	คอลัมน์
+	Columns:	คอลัมน์:
+	Combine	รวม
+	Combine Documents	รวมเอกสาร
+	Combo Box Content Control	ตัวควบคุมเนื้อหากล่องคำสั่งผสม
+	Commands	คำสั่ง
+	Commands:	คำสั่ง:
+	Commas	เครื่องหมายจุลภาค
+	Comment	ความคิดเห็น
+	Comments	ความคิดเห็น
+	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	แสดงความคิดเห็นข้างแต่ละหน้าและการเปลี่ยนแปลงที่ติดตามไว้ใน PDF การพิมพ์ และรูปภาพ และแสดงรายการความคิดเห็นท้ายหน้าเว็บ Markdown และข้อความ
+	Comments Pane	บานหน้าต่างความคิดเห็น
+	Commits	คอมมิต
+	Common Accent Objects	วัตถุเน้นเสียงที่ใช้บ่อย
+	Common Brackets	วงเล็บที่ใช้บ่อย
+	Common Fractions	เศษส่วนที่ใช้บ่อย
+	Common Functions	ฟังก์ชันที่ใช้บ่อย
+	Common Large Operators	ตัวดำเนินการขนาดใหญ่ที่ใช้บ่อย
+	Common Operator Structures	โครงสร้างตัวดำเนินการที่ใช้บ่อย
+	Common Operators	ตัวดำเนินการที่ใช้บ่อย
+	Common Radicals	เครื่องหมายราก
+	Common Subscripts and Superscripts	ตัวห้อยและตัวยกที่ใช้บ่อย
+	Communication	การสื่อสาร
+	Community\nDiscord	ชุมชน\nDiscord
+	Compact	กะทัดรัด
+	Company	บริษัท
+	Compare	เปรียบเทียบ
+	Compare Documents	เปรียบเทียบเอกสาร
+	Compare to	เปรียบเทียบกับ
+	Compared: {changes} changes	เปรียบเทียบแล้ว: เปลี่ยนแปลง {changes} รายการ
+	Comparing with another file needs the desktop app.	การเปรียบเทียบกับไฟล์อื่นต้องใช้แอปเดสก์ท็อป
+	Comparison	การเปรียบเทียบ
+	Comparison settings	การตั้งค่าการเปรียบเทียบ
+	Compress Pictures	บีบอัดรูปภาพ
+	Compress punctuation at the start of a line	บีบเครื่องหมายวรรคตอนที่ต้นบรรทัด
+	Conference	การประชุม
+	Conference paper	บทความการประชุม
+	CONFIDENTIAL	ลับ
+	Confirm password:	ยืนยันรหัสผ่าน:
+	Connect Shapes	เชื่อมต่อรูปร่าง
+	Container Title	ชื่อแหล่งรวม
+	Contains	มี
+	Content Control at Selection	ตัวควบคุมเนื้อหาที่ตำแหน่งเลือก
+	Content Control Properties	คุณสมบัติตัวควบคุมเนื้อหา
+	Contents can't be edited	แก้ไขเนื้อหาไม่ได้
+	Context	บริบท
+	Continuous	ต่อเนื่อง
+	Continuous numbering	การกำหนดหมายเลขต่อเนื่อง
+	Contour Integral	ปริพันธ์เส้นขอบเขต
+	Contour Integral with Limits	ปริพันธ์เส้นขอบเขตพร้อมขอบเขต
+	Contour Integral with Stacked Limits	ปริพันธ์เส้นขอบเขตพร้อมขอบเขตซ้อน
+	Contour Integrals	ปริพันธ์เส้นขอบเขต
+	Contributors	ผู้ร่วมจัดทำ
+	Controls	ตัวควบคุม
+	Conversions	การแปลง
+	Convert	แปลง
+	Convert between built-up and linear form	แปลงระหว่างรูปแบบซ้อนกับรูปแบบเส้นตรง
+	Convert Notes	แปลงบันทึก
+	Convert Text to Table	แปลงข้อความเป็นตาราง
+	Convert Text to Table…	แปลงข้อความเป็นตาราง…
+	Convert to Shapes	แปลงเป็นรูปร่าง
+	Convert to Text	แปลงเป็นข้อความ
+	Copies	จำนวนสำเนา
+	Coproduct	โคโปรดักต์
+	Coproduct with Limits	โคโปรดักต์พร้อมขอบเขต
+	Coproduct with Lower Limit	โคโปรดักต์พร้อมขอบเขตล่าง
+	Coproduct with Subscript-Superscript Limits	โคโปรดักต์พร้อมขอบเขตตัวห้อยและตัวยก
+	Copy	คัดลอก
+	Copy Formatting	คัดลอกการจัดรูปแบบ
+	Copy of the text a bookmark marks	สำเนาข้อความที่ที่คั่นหน้าทำเครื่องหมายไว้
+	Copy Styles	คัดลอกสไตล์
+	Copy to	คัดลอกไปที่
+	Copyright	ลิขสิทธิ์
+	Copyright Sign	เครื่องหมายลิขสิทธิ์
+	Correct accidental usage of cAPS LOCK key	แก้การใช้ปุ่ม CAPS LOCK ที่เผลอกด
+	Correct TWo INitial CApitals	แก้ตัวพิมพ์ใหญ่ต้นคำสองตัวติดกัน
+	Corrections	การแก้ไข
+	Cosecant Function	ฟังก์ชันโคเซแคนต์
+	Cosine 2x	โคไซน์ 2x
+	Cosine Function	ฟังก์ชันโคไซน์
+	Cotangent Function	ฟังก์ชันโคแทนเจนต์
+	Couldn't download {name}: {error}	ดาวน์โหลด {name} ไม่ได้: {error}
+	Couldn't make WordCraft the default: {error}	ตั้ง WordCraft เป็นโปรแกรมเริ่มต้นไม่ได้: {error}
+	Couldn't open {path}: {error}	เปิด {path} ไม่ได้: {error}
+	Count by:	นับทีละ:
+	Count words in text boxes and notes	นับคำในกล่องข้อความและบันทึก
+	Country	ประเทศ
+	Courtesy Title	คำนำหน้าชื่อ
+	Cover Page	หน้าปก
+	Craft	Craft
+	Create	สร้าง
+	Create a Style	สร้างสไตล์
+	Create an interactive outline of your document.\n\nIt's a great way to keep track of where you are or quickly move your content around.\n\nTo get started, go to the Home tab and apply Heading styles to the headings in your document.	สร้างเค้าร่างแบบโต้ตอบของเอกสารของคุณ\n\nเป็นวิธีที่ดีในการติดตามว่าอยู่ที่ใดหรือย้ายเนื้อหาได้อย่างรวดเร็ว\n\nเริ่มต้นโดยไปที่แท็บหน้าแรก แล้วใช้สไตล์หัวเรื่องกับหัวข้อในเอกสารของคุณ
+	Create Graphic	สร้างกราฟิก
+	Create Link	สร้างลิงก์
+	Create New Style	สร้างสไตล์ใหม่
+	Create Source	สร้างแหล่งข้อมูล
+	Croatian	โครเอเชีย
+	Crop	ครอบตัด
+	Cross-reference	การอ้างอิงโยง
+	Cross-reference:	การอ้างอิงโยง:
+	Cube Root	รากที่สาม
+	Current	ปัจจุบัน
+	Current - Linear	ปัจจุบัน - เชิงเส้น
+	Current - Professional	ปัจจุบัน - มืออาชีพ
+	Current page	หน้าปัจจุบัน
+	Current Position	ตำแหน่งปัจจุบัน
+	Current style: {style}	สไตล์ปัจจุบัน: {style}
+	Curved Arrow Connector	ตัวเชื่อมลูกศรโค้ง
+	Curved Connector	ตัวเชื่อมโค้ง
+	Custom	กำหนดเอง
+	Custom dictionary	พจนานุกรมกำหนดเอง
+	Custom Margins…	ระยะขอบกำหนดเอง…
+	Custom mark:	เครื่องหมายกำหนดเอง:
+	Custom range	ช่วงกำหนดเอง
+	Custom size	ขนาดกำหนดเอง
+	Custom Table of Contents…	สารบัญกำหนดเอง…
+	Custom Watermark	ลายน้ำกำหนดเอง
+	Custom Watermark…	ลายน้ำกำหนดเอง…
+	Customize	ปรับแต่ง
+	Customize Keyboard	ปรับแต่งแป้นพิมพ์
+	Customize Quick Access Toolbar	ปรับแต่งแถบเครื่องมือด่วน
+	Customize Quick Access Toolbar…	ปรับแต่งแถบเครื่องมือด่วน…
+	Customize Ribbon	ปรับแต่งริบบอน
+	Customize the Ribbon…	ปรับแต่งริบบอน…
+	Customize…	ปรับแต่ง…
+	Cut	ตัด
+	Cycle	วงจร
+	Czech	เช็ก
+	Danish	เดนมาร์ก
+	Dark	เข้ม
+	Dark Mode	โหมดมืด
+	Dark page (white text on black)	หน้ามืด (ตัวอักษรขาวบนพื้นดำ)
+	Dark with Shadow	เข้มพร้อมเงา
+	Darkroom	ห้องมืด
+	Dashed	เส้นประ
+	Data	ข้อมูล
+	Data Labels	ป้ายชื่อข้อมูล
+	Date & Time	วันที่และเวลา
+	Date and Time	วันที่และเวลา
+	Date format	รูปแบบวันที่
+	Date formats:	รูปแบบวันที่:
+	Date Picker Content Control	ตัวควบคุมเนื้อหาตัวเลือกวันที่
+	Day	วัน
+	Decimal	ทศนิยม
+	Decorative objects only add visual interest: screen readers skip them.	วัตถุตกแต่งเพิ่มเพียงความสวยงาม โปรแกรมอ่านหน้าจอจะข้ามไป
+	Decrease Font Size	ลดขนาดแบบอักษร
+	Decrease Indent	ลดการเยื้อง
+	Default	ค่าเริ่มต้น
+	Default Paragraph Font	แบบอักษรย่อหน้าเริ่มต้น
+	Default tab stops:	จุดตั้งระยะแท็บเริ่มต้น:
+	Define New Bullet	กำหนดสัญลักษณ์หัวข้อย่อยใหม่
+	Define New Multilevel List	กำหนดรายการหลายระดับใหม่
+	Define New Multilevel List…	กำหนดรายการหลายระดับใหม่…
+	Define New Number Format	กำหนดรูปแบบตัวเลขใหม่
+	Deflate	ยุบตัว
+	Delete	ลบ
+	Delete Back in Equation	ลบย้อนหลังในสมการ
+	Delete Bookmark	ลบที่คั่นหน้า
+	Delete Cells	ลบเซลล์
+	Delete Clipboard Item	ลบรายการในคลิปบอร์ด
+	Delete Columns	ลบคอลัมน์
+	Delete Comment	ลบความคิดเห็น
+	Delete in Equation	ลบในสมการ
+	Delete Label	ลบป้ายชื่อ
+	Delete Next Word	ลบคำถัดไป
+	Delete Previous Word	ลบคำก่อนหน้า
+	Delete Rows	ลบแถว
+	Delete Selected Ink	ลบหมึกที่เลือก
+	Delete Style	ลบสไตล์
+	Delete Table	ลบตาราง
+	Delete Table Style	ลบสไตล์ตาราง
+	Deleted	ลบแล้ว
+	Deletions:	ส่วนที่ลบ:
+	Delivery address:	ที่อยู่สำหรับจัดส่ง:
+	Delta Equal To	เดลตาเท่ากับ
+	Delta over arrow	เดลตาเหนือลูกศร
+	Demote	ลดระดับ
+	Demote to Body Text	ลดระดับเป็นเนื้อความ
+	Derivative as a limit	อนุพันธ์ในรูปลิมิต
+	Descending	มากไปน้อย
+	Describe what this object shows, for people who can't see it.	อธิบายสิ่งที่วัตถุนี้แสดง สำหรับผู้ที่มองไม่เห็น
+	Describe what this table shows, for people who can't see it.	อธิบายสิ่งที่ตารางนี้แสดง สำหรับผู้ที่มองไม่เห็น
+	Description:	คำอธิบาย:
+	Design	ออกแบบ
+	Design Mode	โหมดออกแบบ
+	Detach Template	ถอดแม่แบบ
+	Detect language automatically	ตรวจหาภาษาโดยอัตโนมัติ
+	Developer	นักพัฒนา
+	development build	รุ่นสำหรับพัฒนา
+	Diagonal	แนวทแยง
+	Diagonal Dots	จุดทแยง
+	Diamond	เพชร
+	Dictate	บอกให้พิมพ์
+	Dictionaries	พจนานุกรม
+	Dictionaries folder:	โฟลเดอร์พจนานุกรม:
+	Different First Page	หน้าแรกต่างกัน
+	Different Odd & Even Pages	หน้าคี่และหน้าคู่ต่างกัน
+	Differential	ดิฟเฟอเรนเชียล
+	Differential theta	ดิฟเฟอเรนเชียลทีตา
+	Differential x	ดิฟเฟอเรนเชียล x
+	Differential y	ดิฟเฟอเรนเชียล y
+	Differentials	ดิฟเฟอเรนเชียล
+	Direct formatting	การจัดรูปแบบโดยตรง
+	Direction:	ทิศทาง:
+	Directory	ไดเรกทอรี
+	Discord	Discord
+	Discord community	ชุมชน Discord
+	Display	แสดง
+	Display for Review	แสดงสำหรับการตรวจทาน
+	Display name	ชื่อที่แสดง
+	Display text	ข้อความที่แสดง
+	Distance from text	ระยะห่างจากข้อความ
+	Distance from text:	ระยะห่างจากข้อความ:
+	Distribute Columns	กระจายคอลัมน์
+	Distribute letters	กระจายตัวอักษร
+	Distribute Rows	กระจายแถว
+	Distribute spacing	กระจายระยะห่าง
+	Distributed	กระจาย
+	Do not check spelling or grammar	ไม่ตรวจการสะกดคำหรือไวยากรณ์
+	Do Not Check Spelling or Grammar	ไม่ตรวจการสะกดคำหรือไวยากรณ์
+	DO NOT COPY	ห้ามคัดลอก
+	Do Not Show in TOC	ไม่แสดงในสารบัญ
+	Do you want to save changes to {name}?	ต้องการบันทึกการเปลี่ยนแปลงใน {name} หรือไม่
+	Document	เอกสาร
+	Document End	ท้ายเอกสาร
+	Document Formatting	การจัดรูปแบบเอกสาร
+	Document Grid	เส้นตารางเอกสาร
+	Document Information	ข้อมูลเอกสาร
+	Document name	ชื่อเอกสาร
+	Document Property	คุณสมบัติเอกสาร
+	Document Start	ต้นเอกสาร
+	Document template:	แม่แบบเอกสาร:
+	Document Text	ข้อความเอกสาร
+	Document Title	ชื่อเอกสาร
+	Document1	เอกสาร1
+	Document\nPreferences	การตั้งค่า\nเอกสาร
+	Documents	เอกสาร
+	Documents you open will show up here.	เอกสารที่คุณเปิดจะแสดงที่นี่
+	Does not contain	ไม่มี
+	DOI	DOI
+	Don't add space between paragraphs of the same style	ไม่เพิ่มช่องว่างระหว่างย่อหน้าที่ใช้สไตล์เดียวกัน
+	Don't capitalize after:	ไม่ใช้ตัวพิมพ์ใหญ่หลัง:
+	Don't hyphenate	ไม่ใส่ยัติภังค์
+	Don't read Zotero, Mendeley or EndNote citations and bibliographies	ไม่อ่านการอ้างอิงและบรรณานุกรมของ Zotero, Mendeley หรือ EndNote
+	Don't Save	ไม่บันทึก
+	Dot	จุด
+	Dot dash	จุดขีด
+	Dot-dash	จุด-ขีด
+	Dots	จุด
+	Dotted	จุดไข่ปลา
+	Double	คู่
+	Double Bar	เส้นคู่
+	Double Closing Quote	เครื่องหมายคำพูดปิดคู่
+	Double Dot	จุดคู่
+	Double Integral	ปริพันธ์คู่
+	Double Integral with Limits	ปริพันธ์คู่พร้อมขอบเขต
+	Double Integral with Stacked Limits	ปริพันธ์คู่พร้อมขอบเขตซ้อน
+	Double Left Arrow with Text Above	ลูกศรคู่ชี้ซ้ายพร้อมข้อความด้านบน
+	Double Left Arrow with Text Below	ลูกศรคู่ชี้ซ้ายพร้อมข้อความด้านล่าง
+	Double Left Right Arrow with Text Above	ลูกศรคู่ซ้ายขวาพร้อมข้อความด้านบน
+	Double Left Right Arrow with Text Below	ลูกศรคู่ซ้ายขวาพร้อมข้อความด้านล่าง
+	Double Opening Quote	เครื่องหมายคำพูดเปิดคู่
+	Double Right Arrow with Text Above	ลูกศรคู่ชี้ขวาพร้อมข้อความด้านบน
+	Double Right Arrow with Text Below	ลูกศรคู่ชี้ขวาพร้อมข้อความด้านล่าง
+	Double Spacing	ระยะห่างสองเท่า
+	Double Square Brackets	วงเล็บเหลี่ยมคู่
+	Double Strikethrough	ขีดฆ่าสองเส้น
+	Double strikethrough	ขีดฆ่าสองเส้น
+	Double summation	ผลรวมคู่
+	Double Underline	ขีดเส้นใต้สองเส้น
+	Double Vertical Bars	เส้นแนวตั้งคู่
+	Doughnut	โดนัท
+	Down	ลง
+	Draft	ฉบับร่าง
+	DRAFT	ฉบับร่าง
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	ลากสี่เหลี่ยมเพื่อวาดตาราง หรือลากเส้นผ่านเซลล์เพื่อแบ่งเซลล์ กด Esc เพื่อหยุด
+	Draw	วาด
+	Draw Ink	วาดด้วยหมึก
+	Draw Table	วาดตาราง
+	Draw\nTable	วาด\nตาราง
+	Drawing Canvas	ผืนผ้าใบวาดภาพ
+	Drawing Tools	เครื่องมือวาด
+	Drawing\nCanvas	ผืนผ้าใบ\nวาดภาพ
+	Drop Cap	อักษรตัวใหญ่ต้นย่อหน้า
+	Drop cap	อักษรตัวใหญ่ต้นย่อหน้า
+	Drop Cap Options…	ตัวเลือกอักษรตัวใหญ่ต้นย่อหน้า…
+	Drop-Down List Content Control	ตัวควบคุมเนื้อหารายการแบบเลื่อนลง
+	Dropped	ลดระดับ
+	Drops all formatting and pastes plain text.	ล้างการจัดรูปแบบทั้งหมดและวางเป็นข้อความธรรมดา
+	Dutch	ดัตช์
+	E-mail Messages	ข้อความอีเมล
+	Edit Comment	แก้ไขความคิดเห็น
+	Edit Data	แก้ไขข้อมูล
+	Edit Document	แก้ไขเอกสาร
+	Edit Equation	แก้ไขสมการ
+	Edit Field Code	แก้ไขรหัสฟิลด์
+	Edit Field…	แก้ไขฟิลด์…
+	Edit Footer	แก้ไขส่วนท้าย
+	Edit Header	แก้ไขส่วนหัว
+	Edit Items	แก้ไขรายการ
+	Edit Recipient List	แก้ไขรายชื่อผู้รับ
+	Edit Source	แก้ไขแหล่งข้อมูล
+	Edit\nData	แก้ไข\nข้อมูล
+	Edit\nRecipient List	แก้ไข\nรายชื่อผู้รับ
+	Edited	แก้ไขแล้ว
+	Editing	การแก้ไข
+	Editing header/footer	กำลังแก้ไขส่วนหัว/ส่วนท้าย
+	Editing in this document is restricted.	การแก้ไขในเอกสารนี้ถูกจำกัด
+	Editing — edit the document directly	แก้ไข — แก้ไขเอกสารโดยตรง
+	Edition	ฉบับพิมพ์
+	Editor	บรรณาธิการ
+	Edit…	แก้ไข…
+	Effects	เอฟเฟกต์
+	Elbow Arrow Connector	ตัวเชื่อมลูกศรหักมุม
+	Elbow Connector	ตัวเชื่อมหักมุม
+	Ellipsis	จุดไข่ปลา
+	Em Dash	ขีดยาว Em
+	Em Space	ช่องว่าง Em
+	Emboss	นูน
+	Emphasis	เน้น
+	Empty Matrices	เมทริกซ์ว่าง
+	En Dash	ขีดกลาง En
+	En Space	ช่องว่าง En
+	Enclose Characters	ล้อมอักขระ
+	Enclosure	สิ่งที่แนบ
+	Encrypt with Password	เข้ารหัสด้วยรหัสผ่าน
+	Encrypt with Password…	เข้ารหัสด้วยรหัสผ่าน…
+	End of document	ท้ายเอกสาร
+	End of section	ท้ายส่วน
+	End of Word	ท้ายคำ
+	Endnote Reference	การอ้างอิงอ้างอิงท้ายเอกสาร
+	Endnote Text	ข้อความอ้างอิงท้ายเอกสาร
+	Endnotes	อ้างอิงท้ายเอกสาร
+	Endnotes to footnotes	เปลี่ยนอ้างอิงท้ายเอกสารเป็นเชิงอรรถ
+	English (United Kingdom)	อังกฤษ (สหราชอาณาจักร)
+	English (United States)	อังกฤษ (สหรัฐอเมริกา)
+	Engrave	แกะสลัก
+	Enlarge symbol	ขยายสัญลักษณ์
+	Enter formatting for number:	ใส่การจัดรูปแบบสำหรับตัวเลข:
+	Enter in Equation	Enter ในสมการ
+	Enter page number:	ใส่เลขหน้า:
+	Entry marked.	ทำเครื่องหมายรายการแล้ว
+	Envelope #10	ซองจดหมาย #10
+	Envelope Address	ที่อยู่บนซอง
+	Envelope DL	ซองจดหมาย DL
+	Envelope Return	ที่อยู่ผู้ส่งบนซอง
+	Envelope size:	ขนาดซอง:
+	Envelopes	ซองจดหมาย
+	Equal by Definition	เท่ากันตามนิยาม
+	Equal column width	ความกว้างคอลัมน์เท่ากัน
+	Equal Equal	เท่ากันเท่ากับ
+	Equal to	เท่ากับ
+	Equals:	เท่ากับ:
+	Equation	สมการ
+	Equation Gallery	แกลเลอรีสมการ
+	Equation Info	ข้อมูลสมการ
+	Equation Number	หมายเลขสมการ
+	Equation Options	ตัวเลือกสมการ
+	Erase Ink	ลบหมึก
+	Eraser	ยางลบ
+	Errors ({n})	ข้อผิดพลาด ({n})
+	Estonian	เอสโตเนีย
+	Euler's identity	เอกลักษณ์ของออยเลอร์
+	Even Banded Columns	คอลัมน์สลับสีคู่
+	Even Banded Rows	แถวสลับสีคู่
+	Even Page	หน้าคู่
+	Even pages only	เฉพาะหน้าคู่
+	Every change is recorded as a tracked change.	ทุกการเปลี่ยนแปลงจะถูกบันทึกเป็นการเปลี่ยนแปลงที่ติดตามไว้
+	Every command is available to scripts and AI agents: run `wordcraft-cli mcp` for an MCP server, or start the app with `--control <port>` for the JSON control channel.	ทุกคำสั่งใช้ได้กับสคริปต์และเอเจนต์ AI: รัน `wordcraft-cli mcp` เพื่อเปิดเซิร์ฟเวอร์ MCP หรือเริ่มแอปด้วย `--control <port>` สำหรับช่องควบคุม JSON
+	Every field needs a name.	ทุกฟิลด์ต้องมีชื่อ
+	Everyone	ทุกคน
+	Exactly	พอดี
+	Exactly {n}	พอดี {n}
+	Example: {sample}	ตัวอย่าง: {sample}
+	Exceptions (optional)	ข้อยกเว้น (ไม่บังคับ)
+	Exceptions…	ข้อยกเว้น…
+	Existing File or Web Page	ไฟล์หรือหน้าเว็บที่มีอยู่
+	Expand	ขยาย
+	Expand or Collapse Heading	ขยายหรือยุบหัวเรื่อง
+	Exponential	เอกซ์โปเนนเชียล
+	Exponential series	อนุกรมเอกซ์โปเนนเชียล
+	Export	ส่งออก
+	Export a copy to share (PDF, Word document)	ส่งออกสำเนาเพื่อแชร์ (PDF, เอกสาร Word)
+	Export Page as PNG	ส่งออกหน้าเป็น PNG
+	Export PDF	ส่งออก PDF
+	Exported {path}	ส่งออก {path} แล้ว
+	Expression	นิพจน์
+	Extend Selection	ขยายส่วนที่เลือก
+	Extend Selection by Units	ขยายส่วนที่เลือกเป็นหน่วย
+	Extra space	ช่องว่างเพิ่มเติม
+	Field	ฟิลด์
+	Field code:	รหัสฟิลด์:
+	Field Codes	รหัสฟิลด์
+	Field codes:	รหัสฟิลด์:
+	Field name	ชื่อฟิลด์
+	Field name:	ชื่อฟิลด์:
+	Field names must be different.	ชื่อฟิลด์ต้องไม่ซ้ำกัน
+	Field names:	ชื่อฟิลด์:
+	Field properties	คุณสมบัติฟิลด์
+	Field:	ฟิลด์:
+	Fields	ฟิลด์
+	Fields:	ฟิลด์:
+	Field…	ฟิลด์…
+	Figure	รูปภาพ
+	File	ไฟล์
+	File name:	ชื่อไฟล์:
+	Fill	เติมสี
+	Fill color:	สีเติม:
+	Filling in forms	การกรอกแบบฟอร์ม
+	Film	ฟิล์ม
+	Filter and Sort	กรองและเรียงลำดับ
+	Filter Recipients	กรองผู้รับ
+	Find	ค้นหา
+	Find and Replace	ค้นหาและแทนที่
+	Find in list:	ค้นหาในรายการ:
+	Find Next	ค้นหาถัดไป
+	Find Next Editable Region	ค้นหาบริเวณที่แก้ไขได้ถัดไป
+	Find Previous	ค้นหาก่อนหน้า
+	Find Recipient	ค้นหาผู้รับ
+	Find What Expression	นิพจน์ที่จะค้นหา
+	Find What Text	ข้อความที่จะค้นหา
+	Find what:	ค้นหาอะไร:
+	Find:	ค้นหา:
+	Finding printers…	กำลังค้นหาเครื่องพิมพ์…
+	Finish	เสร็จสิ้น
+	Finish & Merge	เสร็จสิ้นและรวม
+	Finish &\nMerge	เสร็จสิ้น &\nรวม
+	Finished	เสร็จสิ้นแล้ว
+	Finnish	ฟินแลนด์
+	First	แรก
+	First Column	คอลัมน์แรก
+	First commit	คอมมิตแรก
+	First line	บรรทัดแรก
+	First line:	บรรทัดแรก:
+	First Name	ชื่อ
+	First row of data contains column headers	แถวแรกของข้อมูลคือหัวคอลัมน์
+	Fit	พอดี
+	Fix Position on Page	ตรึงตำแหน่งบนหน้า
+	Fixed Column Width	ความกว้างคอลัมน์คงที่
+	Flip Horizontal	พลิกแนวนอน
+	Flip Vertical	พลิกแนวตั้ง
+	Floor	ฟังก์ชันพื้น
+	Focus	โฟกัส
+	Follow number with:	ตามหลังตัวเลขด้วย:
+	Font	แบบอักษร
+	Font Color	สีแบบอักษร
+	Font color	สีแบบอักษร
+	Font color:	สีแบบอักษร:
+	Font Dialog	กล่องโต้ตอบแบบอักษร
+	Font Size	ขนาดแบบอักษร
+	Font:	แบบอักษร:
+	Font: {font}	แบบอักษร: {font}
+	Fonts	แบบอักษร
+	Font…	แบบอักษร…
+	Footer	ส่วนท้าย
+	Footnote and Endnote	เชิงอรรถและอ้างอิงท้ายเอกสาร
+	Footnote Reference	การอ้างอิงเชิงอรรถ
+	Footnote Text	ข้อความเชิงอรรถ
+	Footnotes	เชิงอรรถ
+	Footnotes and endnotes	เชิงอรรถและอ้างอิงท้ายเอกสาร
+	Footnotes to endnotes	เปลี่ยนเชิงอรรถเป็นอ้างอิงท้ายเอกสาร
+	For which item:	สำหรับรายการ:
+	Format	รูปแบบ
+	Format Page Numbers	จัดรูปแบบเลขหน้า
+	Format Page Numbers…	จัดรูปแบบเลขหน้า…
+	Format Painter	คัดลอกรูปแบบ
+	Format:	รูปแบบ:
+	Formatted	จัดรูปแบบแล้ว
+	Formatted Text	ข้อความที่จัดรูปแบบแล้ว
+	Formatting	การจัดรูปแบบ
+	Formatting at Selection	การจัดรูปแบบที่ตำแหน่งเลือก
+	Formatting exceptions	ข้อยกเว้นการจัดรูปแบบ
+	Formatting marks	เครื่องหมายการจัดรูปแบบ
+	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	เปรียบเทียบการจัดรูปแบบ ตัวพิมพ์ใหญ่เล็ก ช่องว่าง และตาราง ส่วนการตั้งค่าอื่นจะเก็บไว้ใช้ภายหลัง
+	Formula	สูตร
+	Formula:	สูตร:
+	Forward	ส่งต่อ
+	Fraction	เศษส่วน
+	Fractions (1/2) as fraction characters (½)	เศษส่วน (1/2) เป็นอักขระเศษส่วน (½)
+	French (France)	ฝรั่งเศส (ฝรั่งเศส)
+	From text:	จากข้อความ:
+	from Unicode (hex)	จาก Unicode (เลขฐานสิบหก)
+	Full page of the same label	เต็มหน้าด้วยป้ายชื่อเดียวกัน
+	Full Screen	เต็มหน้าจอ
+	Full\nScreen	เต็ม\nหน้าจอ
+	Function	ฟังก์ชัน
+	Functions	ฟังก์ชัน
+	Gallery	แกลเลอรี
+	General	ทั่วไป
+	Geometry	เรขาคณิต
+	German (Germany)	เยอรมัน (เยอรมนี)
+	Glow	เรืองแสง
+	Glow Colors	สีเรืองแสง
+	Go Back	ย้อนกลับ
+	Go To	ไปที่
+	Go to	ไปที่
+	Go To (⌘⌥G)	ไปที่ (⌘⌥G)
+	Go to what:	ไปที่อะไร:
+	Go To…	ไปที่…
+	Good afternoon	สวัสดีตอนบ่าย
+	Good evening	สวัสดีตอนเย็น
+	Good morning	สวัสดีตอนเช้า
+	GOST (name sort)	GOST (เรียงตามชื่อ)
+	GOST (title sort)	GOST (เรียงตามชื่อเรื่อง)
+	Grab bag	รวมเบ็ดเตล็ด
+	Graphic	กราฟิก
+	Grave	เครื่องหมายเกรฟ
+	Grayscale	ระดับสีเทา
+	Greater than	มากกว่า
+	Greater than or equal	มากกว่าหรือเท่ากับ
+	Greek	กรีก
+	Greek Letters	ตัวอักษรกรีก
+	Green:	เขียว:
+	Greeting Line	บรรทัดคำทักทาย
+	Greeting\nLine	บรรทัด\nคำทักทาย
+	Grid Table 1 Light	ตารางเส้นกริด 1 สว่าง
+	Grid Table 4 – Blue	ตารางเส้นกริด 4 – น้ำเงิน
+	Grid Table 4 – Green	ตารางเส้นกริด 4 – เขียว
+	Grid Table 4 – Orange	ตารางเส้นกริด 4 – ส้ม
+	Grid Table 4 – Purple	ตารางเส้นกริด 4 – ม่วง
+	Gridlines	เส้นตาราง
+	Group	จัดกลุ่ม
+	Grouping Character Above	อักขระจัดกลุ่มด้านบน
+	Grouping Character Below	อักขระจัดกลุ่มด้านล่าง
+	Grow Font 1 Point	เพิ่มแบบอักษร 1 พอยต์
+	Hanging Indent	การเยื้องแบบห้อย
+	Harvard (Anglia)	ฮาร์วาร์ด (แองเกลีย)
+	Hat	เครื่องหมายหมวก
+	Header	ส่วนหัว
+	Header & Footer	ส่วนหัวและส่วนท้าย
+	Header Row	แถวส่วนหัว
+	Header row	แถวส่วนหัว
+	Header/Footer Position	ตำแหน่งส่วนหัว/ส่วนท้าย
+	Headers and footers	ส่วนหัวและส่วนท้าย
+	Heading	หัวเรื่อง
+	Heading 1	หัวเรื่อง 1
+	Heading 2	หัวเรื่อง 2
+	Heading 3	หัวเรื่อง 3
+	Heading styles (levels 1–{n})	สไตล์หัวเรื่อง (ระดับ 1–{n})
+	Heading text	ข้อความหัวเรื่อง
+	Heading {n}	หัวเรื่อง {n}
+	Headings	หัวเรื่อง
+	Heart	หัวใจ
+	Hebrew	ฮีบรู
+	Height:	ความสูง:
+	Help	ช่วยเหลือ
+	Hidden	ซ่อน
+	Hidden bookmarks	ที่คั่นหน้าที่ซ่อน
+	Hidden text	ข้อความที่ซ่อน
+	Hide Codes	ซ่อนรหัส
+	Hide from style lists	ซ่อนจากรายการสไตล์
+	Hide Ink	ซ่อนหมึก
+	Hide Quick Access Toolbar	ซ่อนแถบเครื่องมือด่วน
+	Hide White Space	ซ่อนช่องว่างสีขาว
+	Hide\nInk	ซ่อน\nหมึก
+	Hierarchy	ลำดับชั้น
+	Highlight	ไฮไลต์
+	Highlight Merge Fields	ไฮไลต์ฟิลด์การพิมพ์เวียน
+	Highlight\nMerge Fields	ไฮไลต์\nฟิลด์การพิมพ์เวียน
+	Highlighter	ปากกาไฮไลต์
+	Hindi	ฮินดี
+	Hollow	กลวง
+	Home	หน้าแรก
+	Home folder	โฟลเดอร์หลัก
+	Horizontal	แนวนอน
+	Horizontal Line	เส้นแนวนอน
+	How many pages the whole document has	เอกสารทั้งหมดมีกี่หน้า
+	How many pages this section has	ส่วนนี้มีกี่หน้า
+	How many words the document holds	เอกสารมีกี่คำ
+	HTML Format	รูปแบบ HTML
+	Hue:	เฉดสี:
+	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	ไฟล์ Hunspell .aff และ .dic ที่วางไว้ที่นี่ (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) จะถูกใช้ก่อนของระบบ
+	Hyperbolic Cosecant Function	ฟังก์ชันไฮเพอร์โบลิกโคเซแคนต์
+	Hyperbolic Cosine Function	ฟังก์ชันไฮเพอร์โบลิกโคไซน์
+	Hyperbolic Cotangent Function	ฟังก์ชันไฮเพอร์โบลิกโคแทนเจนต์
+	Hyperbolic Functions	ฟังก์ชันไฮเพอร์โบลิก
+	Hyperbolic Secant Function	ฟังก์ชันไฮเพอร์โบลิกเซแคนต์
+	Hyperbolic Sine Function	ฟังก์ชันไฮเพอร์โบลิกไซน์
+	Hyperbolic Tangent Function	ฟังก์ชันไฮเพอร์โบลิกแทนเจนต์
+	Hyperlink	ไฮเปอร์ลิงก์
+	Hyphenate at:	ใส่ยัติภังค์ที่:
+	Hyphenate words in CAPS	ใส่ยัติภังค์ในคำที่เป็นตัวพิมพ์ใหญ่
+	Hyphenation	การใส่ยัติภังค์
+	Hyphenation Options…	ตัวเลือกการใส่ยัติภังค์…
+	Hyphenation zone:	โซนยัติภังค์:
+	Hyphens (--) as dashes (—)	ยัติภังค์ (--) เป็นขีดยาว (—)
+	Hypotenuse	ด้านตรงข้ามมุมฉาก
+	Icon Color	สีไอคอน
+	Icons	ไอคอน
+	Identity Matrices	เมทริกซ์เอกลักษณ์
+	If…Then…Else	ถ้า…แล้ว…มิฉะนั้น
+	If…Then…Else…	ถ้า…แล้ว…มิฉะนั้น…
+	Ignore All	ข้ามทั้งหมด
+	Ignore punctuation characters	ข้ามอักขระวรรคตอน
+	Ignore web and file addresses	ข้ามที่อยู่เว็บและไฟล์
+	Ignore white-space characters	ข้ามอักขระช่องว่าง
+	Ignore words in capitals	ข้ามคำที่เป็นตัวพิมพ์ใหญ่
+	Ignore words with numbers	ข้ามคำที่มีตัวเลข
+	Illustrations	ภาพประกอบ
+	Immersive	การอ่านแบบเต็มอรรถรส
+	Immersive Reader	โปรแกรมอ่านเต็มอรรถรส
+	Immersive\nReader	โปรแกรมอ่าน\nเต็มอรรถรส
+	Import…	นำเข้า…
+	In Default apps, choose WordCraft for the document types you want it to open.	ในแอปเริ่มต้น ให้เลือก WordCraft สำหรับชนิดเอกสารที่ต้องการให้เปิด
+	In equations, typing a name after a backslash replaces it with its symbol.	ในสมการ การพิมพ์ชื่อหลังเครื่องหมายแบ็กสแลชจะแทนที่ด้วยสัญลักษณ์ของมัน
+	In Front of Text	หน้าข้อความ
+	In Line with Text	บรรทัดเดียวกับข้อความ
+	In margin	ในระยะขอบ
+	In the margin	ในระยะขอบ
+	Inches	นิ้ว
+	Include level number from:	รวมหมายเลขระดับจาก:
+	Include page numbers	รวมเลขหน้า
+	Increase Font Size	เพิ่มขนาดแบบอักษร
+	Increase Indent	เพิ่มการเยื้อง
+	Indent	การเยื้อง
+	Indent from left:	เยื้องจากซ้าย:
+	Indentation	การเยื้อง
+	Indented	เยื้องแล้ว
+	Indents	การเยื้อง
+	Indents and Spacing	การเยื้องและระยะห่าง
+	Index	ดัชนี
+	Index and Tables	ดัชนีและตาราง
+	Index Heading	หัวเรื่องดัชนี
+	Index {n}	ดัชนี {n}
+	Indonesian	อินโดนีเซีย
+	Inflate	พองตัว
+	Info	ข้อมูล
+	Initial column width:	ความกว้างคอลัมน์เริ่มต้น:
+	Initials:	ชื่อย่อ:
+	Ink	หมึก
+	Ink Replay	เล่นซ้ำหมึก
+	Ink to Shape	หมึกเป็นรูปร่าง
+	Ink to\nMath	หมึกเป็น\nคณิตศาสตร์
+	Ink to\nShape	หมึกเป็น\nรูปร่าง
+	Ink\nReplay	เล่นซ้ำ\nหมึก
+	Inline	อินไลน์
+	Input Format	รูปแบบอินพุต
+	Insert	แทรก
+	Insert a new equation (Alt+=)	แทรกสมการใหม่ (Alt+=)
+	Insert Above	แทรกด้านบน
+	Insert Below	แทรกด้านล่าง
+	Insert Caption	แทรกคำบรรยายภาพ
+	Insert Caption…	แทรกคำบรรยายภาพ…
+	Insert Chart	แทรกแผนภูมิ
+	Insert Citation	แทรกการอ้างอิง
+	Insert Columns to the Left	แทรกคอลัมน์ทางซ้าย
+	Insert Columns to the Right	แทรกคอลัมน์ทางขวา
+	Insert Date Field	แทรกฟิลด์วันที่
+	Insert Endnote	แทรกอ้างอิงท้ายเอกสาร
+	Insert Footnote	แทรกเชิงอรรถ
+	Insert Hyperlink	แทรกไฮเปอร์ลิงก์
+	Insert Index	แทรกดัชนี
+	Insert Left	แทรกทางซ้าย
+	Insert Merge Field	แทรกฟิลด์การพิมพ์เวียน
+	Insert Merge\nField	แทรกฟิลด์\nการพิมพ์เวียน
+	Insert New Equation	แทรกสมการใหม่
+	Insert one text or another, depending on a field's value.	แทรกข้อความใดข้อความหนึ่ง ขึ้นอยู่กับค่าของฟิลด์
+	Insert Page Field	แทรกฟิลด์หน้า
+	Insert reference to:	แทรกการอ้างอิงถึง:
+	Insert Right	แทรกทางขวา
+	Insert Row or Column by Clicking	แทรกแถวหรือคอลัมน์ด้วยการคลิก
+	Insert Rows Above	แทรกแถวด้านบน
+	Insert Rows Below	แทรกแถวด้านล่าง
+	Insert Shapes	แทรกรูปร่าง
+	Insert SmartArt	แทรก SmartArt
+	Insert Spike	แทรกสไปก์
+	Insert Structure	แทรกโครงสร้าง
+	Insert Symbol	แทรกสัญลักษณ์
+	Insert Table	แทรกตาราง
+	Insert Table of Authorities	แทรกตารางอำนาจหน้าที่
+	Insert Table of Figures	แทรกตารางรูปภาพ
+	Insert Table…	แทรกตาราง…
+	Insert Time Field	แทรกฟิลด์เวลา
+	Insert\nAbove	แทรก\nด้านบน
+	Insert\nCaption	แทรก\nคำบรรยายภาพ
+	Insert\nCitation	แทรก\nการอ้างอิง
+	Insert\nFootnote	แทรก\nเชิงอรรถ
+	Insertions and Deletions	ส่วนที่แทรกและส่วนที่ลบ
+	Insertions:	ส่วนที่แทรก:
+	Inside Borders	เส้นขอบด้านใน
+	Inside Horizontal Border	เส้นขอบแนวนอนด้านใน
+	Inside Vertical Border	เส้นขอบแนวตั้งด้านใน
+	Inside:	ด้านใน:
+	Inspect Document	ตรวจสอบเอกสาร
+	Inspect Styles at Selection	ตรวจสอบสไตล์ที่ตำแหน่งเลือก
+	Institution	สถาบัน
+	Integral	ปริพันธ์
+	Integral of e^(−x²)	ปริพันธ์ของ e^(−x²)
+	Integral with Limits	ปริพันธ์พร้อมขอบเขต
+	Integral with Stacked Limits	ปริพันธ์พร้อมขอบเขตซ้อน
+	Integrals	ปริพันธ์
+	Intense Emphasis	เน้นมาก
+	Intense Quote	คำพูดเน้นมาก
+	Intense Reference	การอ้างอิงเน้นมาก
+	Interface	หน้าจอโปรแกรม
+	Interface language	ภาษาของหน้าจอโปรแกรม
+	Interface language:	ภาษาของหน้าจอโปรแกรม:
+	Interface size:	ขนาดหน้าจอโปรแกรม:
+	Interface Theme	ชุดรูปแบบหน้าจอโปรแกรม
+	Interface theme:	ชุดรูปแบบหน้าจอโปรแกรม:
+	Interface\nTheme	ชุดรูปแบบ\nหน้าจอโปรแกรม
+	Internet addresses as links	ที่อยู่อินเทอร์เน็ตเป็นลิงก์
+	Intersection	อินเตอร์เซกชัน
+	Intersection with Limits	อินเตอร์เซกชันพร้อมขอบเขต
+	Intersection with Lower Limit	อินเตอร์เซกชันพร้อมขอบเขตล่าง
+	Intersection with Subscript-Superscript Limits	อินเตอร์เซกชันพร้อมขอบเขตตัวห้อยและตัวยก
+	Inverse Cosecant Function	ฟังก์ชันผกผันของโคเซแคนต์
+	Inverse Cosine Function	ฟังก์ชันผกผันของโคไซน์
+	Inverse Cotangent Function	ฟังก์ชันผกผันของโคแทนเจนต์
+	Inverse Functions	ฟังก์ชันผกผัน
+	Inverse Hyperbolic Cosecant Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกโคเซแคนต์
+	Inverse Hyperbolic Cosine Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกโคไซน์
+	Inverse Hyperbolic Cotangent Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกโคแทนเจนต์
+	Inverse Hyperbolic Functions	ฟังก์ชันไฮเพอร์โบลิกผกผัน
+	Inverse Hyperbolic Secant Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกเซแคนต์
+	Inverse Hyperbolic Sine Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกไซน์
+	Inverse Hyperbolic Tangent Function	ฟังก์ชันผกผันของไฮเพอร์โบลิกแทนเจนต์
+	Inverse Secant Function	ฟังก์ชันผกผันของเซแคนต์
+	Inverse Sine Function	ฟังก์ชันผกผันของไซน์
+	Inverse Tangent Function	ฟังก์ชันผกผันของแทนเจนต์
+	Ionosphere	ไอโอโนสเฟียร์
+	Is blank	ว่างเปล่า
+	Is not blank	ไม่ว่างเปล่า
+	ISO 690 (author-date)	ISO 690 (ผู้เขียน-ปี)
+	ISO 690 (numerical)	ISO 690 (ตัวเลข)
+	Issue	ฉบับที่
+	Italian	อิตาลี
+	Italic	ตัวเอียง
+	Japanese	ญี่ปุ่น
+	Join the ArtCraft community on Discord	เข้าร่วมชุมชน ArtCraft บน Discord
+	Join us on Discord: discord.gg/artcraft	เข้าร่วมกับเราบน Discord: discord.gg/artcraft
+	Journal	วารสาร
+	Justification	การจัดชิดขอบ
+	Justification of a display equation	การจัดตำแหน่งสมการแบบแสดงผล
+	Justified	จัดชิดขอบสองด้านแล้ว
+	Justify	จัดชิดขอบสองด้าน
+	Keep Lines Together	คงบรรทัดไว้ด้วยกัน
+	Keep lines together	คงบรรทัดไว้ด้วยกัน
+	Keep Text Only	เก็บเฉพาะข้อความ
+	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	เก็บรหัสผ่านไว้ในที่ปลอดภัย หากไม่มีรหัสผ่าน จะไม่มีใครเปิดเอกสารได้ รวมถึง WordCraft เว้นช่องทั้งสองว่างไว้เพื่อลบรหัสผ่าน
+	Keep with Next	คงไว้กับย่อหน้าถัดไป
+	Keep with next	คงไว้กับย่อหน้าถัดไป
+	Keeps the fonts and formatting of the copied text.	เก็บแบบอักษรและการจัดรูปแบบของข้อความที่คัดลอก
+	Kerning for fonts:	การจัดช่องไฟสำหรับแบบอักษร:
+	Keyboard shortcuts:	แป้นพิมพ์ลัด:
+	Keys for this command:	แป้นสำหรับคำสั่งนี้:
+	Keywords	คำสำคัญ
+	Korean	เกาหลี
+	Label changes with:	ป้ายชื่อเปลี่ยนตาม:
+	Label:	ป้ายชื่อ:
+	Labels	ป้ายชื่อ
+	Landscape	แนวนอน
+	Language	ภาษา
+	Language Preferences…	การตั้งค่าภาษา…
+	Large	ใหญ่
+	Large\nOperator	ตัวดำเนินการ\nขนาดใหญ่
+	Largest Only	เฉพาะที่ใหญ่ที่สุด
+	Lasso	บ่วงบาศ
+	Lasso Select	เลือกด้วยบ่วงบาศ
+	Last	สุดท้าย
+	Last Column	คอลัมน์สุดท้าย
+	Last commit	คอมมิตล่าสุด
+	Last Name	นามสกุล
+	Last, First; Last, First	นามสกุล, ชื่อ; นามสกุล, ชื่อ
+	Latin text font:	แบบอักษรสำหรับข้อความละติน:
+	Layout	เค้าโครง
+	Layout Summary	สรุปเค้าโครง
+	Layouts	เค้าโครง
+	Leader	เส้นนำ
+	Leave a recipient out of the merge when a field has this value.	ตัดผู้รับออกจากการพิมพ์เวียนเมื่อฟิลด์มีค่านี้
+	Leave Equation	ออกจากสมการ
+	Leave out the date and time of comments and tracked changes when saving	ไม่บันทึกวันที่และเวลาของความคิดเห็นและการเปลี่ยนแปลงที่ติดตามไว้เมื่อบันทึก
+	Leave the equation (Esc)	ออกจากสมการ (Esc)
+	Leave the label out of the caption	ไม่แสดงป้ายชื่อในคำบรรยายภาพ
+	Left	ซ้าย
+	Left Arrow with Text Above	ลูกศรชี้ซ้ายพร้อมข้อความด้านบน
+	Left Arrow with Text Below	ลูกศรชี้ซ้ายพร้อมข้อความด้านล่าง
+	Left border	เส้นขอบซ้าย
+	Left Border	เส้นขอบซ้าย
+	Left Bracket Twice	วงเล็บซ้ายสองครั้ง
+	Left indent	การเยื้องซ้าย
+	Left Margin	ระยะขอบซ้าย
+	Left Only	เฉพาะด้านซ้าย
+	Left Right Arrow Above	ลูกศรซ้ายขวาด้านบน
+	Left Right Arrow with Text Above	ลูกศรซ้ายขวาพร้อมข้อความด้านบน
+	Left Right Arrow with Text Below	ลูกศรซ้ายขวาพร้อมข้อความด้านล่าง
+	Left Subscript-Superscript	ตัวห้อยและตัวยกด้านซ้าย
+	Left-to-right	ซ้ายไปขวา
+	Left-to-Right Text Direction	ทิศทางข้อความซ้ายไปขวา
+	Left:	ซ้าย:
+	Leftwards Arrow Above	ลูกศรชี้ซ้ายด้านบน
+	Leftwards Harpoon Above	ฉมวกชี้ซ้ายด้านบน
+	Legal style numbering	การกำหนดหมายเลขแบบกฎหมาย
+	Legend	คำอธิบายสัญลักษณ์
+	Less than	น้อยกว่า
+	Less than or equal	น้อยกว่าหรือเท่ากับ
+template	Letter	จดหมาย
+	Letter headings	หัวข้อแบบตัวอักษร
+	Letter-Like Symbols	สัญลักษณ์คล้ายตัวอักษร
+	Letters	ตัวอักษร
+	Level 1	ระดับ 1
+	Level 2	ระดับ 2
+	Level 3	ระดับ 3
+	Level 4	ระดับ 4
+	Level 5	ระดับ 5
+	Level 6	ระดับ 6
+	Level 7	ระดับ 7
+	Level 8	ระดับ 8
+	Level 9	ระดับ 9
+	Level {n}	ระดับ {n}
+	Levels:	ระดับ:
+	Light	สว่าง
+	Light with Outline	สว่างพร้อมเส้นขอบ
+	Limit	ลิมิต
+	Limit and	ลิมิตและ
+	Limit and\nLog	ลิมิตและ\nลอการิทึม
+	Limit consecutive hyphens to:	จำกัดยัติภังค์ติดกันไม่เกิน:
+	Limit Example	ตัวอย่างลิมิต
+	Limit formatting to a selection of styles	จำกัดการจัดรูปแบบเฉพาะสไตล์ที่เลือก
+	Line	เส้น
+	Line and Page Breaks	การตัดบรรทัดและตัดหน้า
+	Line and Paragraph Spacing	ระยะห่างบรรทัดและย่อหน้า
+	Line between	เส้นคั่นระหว่าง
+	Line Break	ตัวตัดบรรทัด
+	Line breaking	การตัดบรรทัด
+	Line delta	ผลต่างบรรทัด
+	Line End	ท้ายบรรทัด
+	Line Number	หมายเลขบรรทัด
+	Line Numbering Options…	ตัวเลือกหมายเลขบรรทัด…
+	Line Numbers	หมายเลขบรรทัด
+	Line Spacing	ระยะห่างบรรทัด
+	Line spacing	ระยะห่างบรรทัด
+	Line Spacing Options…	ตัวเลือกระยะห่างบรรทัด…
+	Line spacing:	ระยะห่างบรรทัด:
+	Line Start	ต้นบรรทัด
+	Linear	เชิงเส้น
+	Linear Fraction	เศษส่วนเชิงเส้น
+	Lines	เส้น
+	Lines +/−	บรรทัด +/−
+	Lines added	บรรทัดที่เพิ่ม
+	Lines and characters	บรรทัดและอักขระ
+	Lines deleted	บรรทัดที่ลบ
+	Lines only	เฉพาะเส้น
+	Lines per page:	บรรทัดต่อหน้า:
+	Lines to drop:	จำนวนบรรทัดที่จม:
+	Link	ลิงก์
+	Link entries to their headings	เชื่อมโยงรายการกับหัวเรื่องของมัน
+	Link level to style:	เชื่อมโยงระดับกับสไตล์:
+	Link to Previous	เชื่อมโยงกับก่อนหน้า
+	Link to:	เชื่อมโยงกับ:
+	Linked style (paragraph and character)	สไตล์ที่เชื่อมโยง (ย่อหน้าและอักขระ)
+	Links	ลิงก์
+	Links and References	ลิงก์และการอ้างอิง
+	Link…	ลิงก์…
+	List	รายการ
+	List Definition	คำนิยามรายการ
+	List entries	รายการรายการ
+	List Paragraph	ย่อหน้ารายการ
+	List Table 3 – Blue	ตารางรายการ 3 – น้ำเงิน
+	List Table 3 – Green	ตารางรายการ 3 – เขียว
+	List Table 3 – Orange	ตารางรายการ 3 – ส้ม
+	List Table 3 – Purple	ตารางรายการ 3 – ม่วง
+	Load System Installed Fonts…	โหลดแบบอักษรที่ติดตั้งในระบบ…
+	Loaded {count} system fonts.	โหลดแบบอักษรระบบ {count} รายการแล้ว
+	Local font access is not supported by your browser.	เบราว์เซอร์ของคุณไม่รองรับการเข้าถึงแบบอักษรในเครื่อง
+	Local font access was denied.	การเข้าถึงแบบอักษรในเครื่องถูกปฏิเสธ
+	Location	ตำแหน่งที่ตั้ง
+	Location: {path}	ตำแหน่งที่ตั้ง: {path}
+	Lock aspect ratio	ล็อกอัตราส่วน
+	Lock Fields	ล็อกฟิลด์
+	Log	ลอการิทึม
+	Logarithm	ลอการิทึม
+	Logarithm with Base	ลอการิทึมพร้อมฐาน
+	Logical AND	AND เชิงตรรกะ
+	Logical AND with Limits	AND เชิงตรรกะพร้อมขอบเขต
+	Logical OR	OR เชิงตรรกะ
+	Logical OR with Limits	OR เชิงตรรกะพร้อมขอบเขต
+	lowercase	ตัวพิมพ์เล็ก
+	Lum:	ความสว่าง:
+	Macros	มาโคร
+	Made from the author and year when empty	สร้างจากผู้เขียนและปีเมื่อว่างเปล่า
+	Magazine or newspaper article	บทความนิตยสารหรือหนังสือพิมพ์
+	Mail Merge	การพิมพ์เวียน
+	Mailings	จดหมายเวียน
+	Main entry:	รายการหลัก:
+	Make WordCraft the default for Word documents…	ตั้ง WordCraft เป็นโปรแกรมเริ่มต้นสำหรับเอกสาร Word…
+	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	ทำให้ริบบอน เมนู และกล่องโต้ตอบใหญ่ขึ้นหรือเล็กลง ตัวเลือกอัตโนมัติจะตามการปรับขนาดหน้าจอของระบบ 100% คือหนึ่งพิกเซลหน้าจอต่อหนึ่งพอยต์ การขยายเอกสารแยกต่างหาก
+	Manage Sources	จัดการแหล่งข้อมูล
+	Manage Styles	จัดการสไตล์
+	Manage Styles…	จัดการสไตล์…
+	Manual Hyphenation	ใส่ยัติภังค์ด้วยตนเอง
+	Manual hyphenation is complete.	การใส่ยัติภังค์ด้วยตนเองเสร็จสมบูรณ์
+	Manual Line Break	ตัวตัดบรรทัดด้วยตนเอง
+	Manual Page Break	ตัวตัดหน้าด้วยตนเอง
+	Manual…	ด้วยตนเอง…
+	Many pages	หลายหน้า
+	Margins	ระยะขอบ
+	Mark	ทำเครื่องหมาย
+	Mark All	ทำเครื่องหมายทั้งหมด
+	Mark as decorative	ทำเครื่องหมายเป็นวัตถุตกแต่ง
+	Mark Citation	ทำเครื่องหมายการอ้างอิง
+	Mark Entry	ทำเครื่องหมายรายการ
+	Mark Entry…	ทำเครื่องหมายรายการ…
+	Mark grammar errors as you type	ทำเครื่องหมายข้อผิดพลาดทางไวยากรณ์ขณะพิมพ์
+	Mark Index Entry	ทำเครื่องหมายรายการดัชนี
+	Mark selected text as:	ทำเครื่องหมายข้อความที่เลือกเป็น:
+	Mark\nCitation	ทำเครื่องหมาย\nการอ้างอิง
+	Mark\nEntry	ทำเครื่องหมาย\nรายการ
+	Markdown (*.md)	Markdown (*.md)
+	Match case	ตรงตัวพิมพ์ใหญ่เล็ก
+	Match Fields	จับคู่ฟิลด์
+	Match prefix	ตรงกับคำนำหน้า
+	Match suffix	ตรงกับคำลงท้าย
+	Matches: {count}	ที่ตรงกัน: {count}
+	Math AutoCorrect	แก้ไขคณิตศาสตร์อัตโนมัติ
+	Matrices with Brackets	เมทริกซ์ในวงเล็บ
+	Matrix	เมทริกซ์
+	Maximum	สูงสุด
+	Maximum Example	ตัวอย่างค่าสูงสุด
+	Measured By	วัดโดย
+	Measurement units:	หน่วยวัด:
+	Medium	ปานกลาง
+	Merge	รวม
+	Merge Cells	รวมเซลล์
+	Merge cells before split	รวมเซลล์ก่อนแบ่ง
+	Merge Formatting	รวมการจัดรูปแบบ
+	Merge Record #	หมายเลขระเบียนที่รวม
+	Merged PRs	Pull Request ที่รวมแล้ว
+	Mesosphere	มีโซสเฟียร์
+	Middle	กลาง
+	Midline Dots	จุดกึ่งกลางบรรทัด
+	Millimeters	มิลลิเมตร
+	Minimum	ต่ำสุด
+	Minus Equal	ลบเท่ากับ
+	Mirror indents	เยื้องแบบกระจก
+	Mirror margins	ระยะขอบแบบกระจก
+	Mirrored	แบบกระจก
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0 ลิขสิทธิ์ (c) 2026 ทีม ArtCraft และผู้ร่วมพัฒนา WordCraft
+	Model	โมเดล
+	Models	โมเดล
+	Moderate	ปานกลาง
+	Modify Style	แก้ไขสไตล์
+	Modify Table Style	แก้ไขสไตล์ตาราง
+	Modify Table Style…	แก้ไขสไตล์ตาราง…
+	Modify…	แก้ไข…
+	Mon	จ.
+	Month	เดือน
+	More >>	เพิ่มเติม >>
+	More Colors…	สีเพิ่มเติม…
+	More Columns…	คอลัมน์เพิ่มเติม…
+	More Commands…	คำสั่งเพิ่มเติม…
+	More Paper Sizes…	ขนาดกระดาษเพิ่มเติม…
+	More Symbols…	สัญลักษณ์เพิ่มเติม…
+	More templates →	แม่แบบเพิ่มเติม →
+	Move Down	ย้ายลง
+	Move in Equation	ย้ายในสมการ
+	Move or Resize	ย้ายหรือปรับขนาด
+	Move Paragraph Down	ย้ายย่อหน้าลง
+	Move Paragraph Up	ย้ายย่อหน้าขึ้น
+	Move Past Citation	ย้ายข้ามการอ้างอิง
+	Move Past\nCitation	ย้ายข้าม\nการอ้างอิง
+	Move Selected Ink	ย้ายหมึกที่เลือก
+	Move Table by Dragging	ย้ายตารางด้วยการลาก
+	Move Up	ย้ายขึ้น
+	Move with Text	ย้ายพร้อมข้อความ
+	Moved from	ย้ายมาจาก
+	Moved from:	ย้ายมาจาก:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	วัตถุที่ย้ายจะดูดติดขอบและกึ่งกลางของหน้า ระยะขอบ และวัตถุอื่น กด Alt ค้างไว้เพื่อย้ายอย่างอิสระ
+	Moved to	ย้ายไปที่
+	Moved to:	ย้ายไปที่:
+	Moves	การย้าย
+	Multilevel List	รายการหลายระดับ
+	Multilevel List Library	คลังรายการหลายระดับ
+	Multiple Pages	หลายหน้า
+	My list has	รายการของฉันมี
+	Name	ชื่อ
+	Name (A–Z)	ชื่อ (ก–ฮ)
+	Name of the file this document is saved as	ชื่อไฟล์ที่บันทึกเอกสารนี้
+	Name:	ชื่อ:
+	Narrow	แคบ
+	Narrow  {size} all	แคบ  ทั้งหมด {size}
+	Natural Logarithm	ลอการิทึมธรรมชาติ
+	Nature	ธรรมชาติ
+	Navigation	การนำทาง
+	Navigation Pane	บานหน้าต่างนำทาง
+	Negated Relations	ความสัมพันธ์เชิงปฏิเสธ
+	New	ใหม่
+	New Comment	ความคิดเห็นใหม่
+	New comments and tracked changes are recorded under this name and these initials.	ความคิดเห็นใหม่และการเปลี่ยนแปลงที่ติดตามไว้จะบันทึกภายใต้ชื่อและอักษรย่อนี้
+	New Document	เอกสารใหม่
+	New document	เอกสารใหม่
+	New Drawing Canvas	ผืนผ้าใบวาดภาพใหม่
+	New Entry	รายการใหม่
+	New from Template	ใหม่จากแม่แบบ
+	New Group	กลุ่มใหม่
+	New Label	ป้ายชื่อใหม่
+	New Label…	ป้ายชื่อใหม่…
+	New Paragraph	ย่อหน้าใหม่
+	New shortcut:	แป้นพิมพ์ลัดใหม่:
+	New Style…	สไตล์ใหม่…
+	New Tab	แท็บใหม่
+	New Table Style	สไตล์ตารางใหม่
+	New Table Style…	สไตล์ตารางใหม่…
+	New Window	หน้าต่างใหม่
+	New word	คำใหม่
+	New\nComment	ความคิดเห็น\nใหม่
+	New\nWindow	หน้าต่าง\nใหม่
+	New…	ใหม่…
+	Next	ถัดไป
+	Next Change	การเปลี่ยนแปลงถัดไป
+	Next Comment	ความคิดเห็นถัดไป
+	Next Field	ฟิลด์ถัดไป
+	Next Footnote	เชิงอรรถถัดไป
+	Next Page	หน้าถัดไป
+	Next Record	ระเบียนถัดไป
+	Next Section	ส่วนถัดไป
+	Next Sentence	ประโยคถัดไป
+	Next sentence	ประโยคถัดไป
+	No	ไม่
+	No accessibility issues found.	ไม่พบปัญหาการเข้าถึง
+	No Border	ไม่มีเส้นขอบ
+	No changes (read only)	ไม่มีการเปลี่ยนแปลง (อ่านอย่างเดียว)
+	No Color	ไม่มีสี
+	No contributor data was built into this copy.	ไม่มีข้อมูลผู้ร่วมพัฒนาในสำเนานี้
+	No document is open. Create a document or open one first.	ไม่มีเอกสารที่เปิดอยู่ ให้สร้างเอกสารหรือเปิดเอกสารก่อน
+	No errors found: every merge field is in the recipient list.	ไม่พบข้อผิดพลาด: ทุกฟิลด์การพิมพ์เวียนอยู่ในรายชื่อผู้รับ
+	No Fill	ไม่เติมสี
+	No Glow	ไม่เรืองแสง
+	No grid	ไม่มีเส้นตาราง
+	No header row	ไม่มีแถวส่วนหัว
+	No icons match your search.	ไม่มีไอคอนที่ตรงกับการค้นหาของคุณ
+	No items to show.	ไม่มีรายการที่จะแสดง
+	No limit	ไม่จำกัด
+	No Markup	ไม่มีเครื่องหมายการแก้ไข
+	No model credits were built into this copy.	ไม่มีเครดิตโมเดลในสำเนานี้
+	No Outline	ไม่มีเส้นขอบ
+	No Paragraph Space	ไม่มีระยะห่างย่อหน้า
+	No printers found. Configure a system printer or export a PDF.	ไม่พบเครื่องพิมพ์ ตั้งค่าเครื่องพิมพ์ของระบบหรือส่งออกเป็น PDF
+	No Reflection	ไม่สะท้อน
+	No Shadow	ไม่มีเงา
+	No Soft Edges	ไม่มีขอบเบลอ
+	No sources yet.	ยังไม่มีแหล่งข้อมูล
+	No Spacing	ไม่มีระยะห่าง
+	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	ยังไม่ได้ติดตั้งพจนานุกรมตรวจสะกดสำหรับ {language} จึงไม่ได้ตรวจ WordCraft จะค้นหาพจนานุกรม Hunspell {name} ในโฟลเดอร์ WORDCRAFT_DICTIONARIES และตำแหน่งปกติของระบบ
+	No templates match your search.	ไม่มีแม่แบบที่ตรงกับการค้นหาของคุณ
+	No Transform	ไม่แปลงรูป
+	No words yet. Add to Dictionary on a misspelled word puts it here.	ยังไม่มีคำ การเลือก เพิ่มในพจนานุกรม บนคำที่สะกดผิดจะนำมาไว้ที่นี่
+	No-Width Non Break	ไม่ตัดคำแบบไม่มีความกว้าง
+	No-Width Optional Break	ตัดคำได้แบบไม่มีความกว้าง
+	Nonbreaking Hyphen	ยัติภังค์ไม่ตัดคำ
+	Nonbreaking Space	ช่องว่างไม่ตัดคำ
+	None	ไม่มี
+	Normal	ปกติ
+	Normal  {size} all	ปกติ  ทั้งหมด {size}
+	Normal Indent	การเยื้องปกติ
+	Normal probability density	ความหนาแน่นความน่าจะเป็นแบบปกติ
+	Normal speed	ความเร็วปกติ
+	Normal Style	สไตล์ปกติ
+	Normal Table	ตารางปกติ
+	Normal Text	ข้อความปกติ
+	Normal Word Document	เอกสาร Word ปกติ
+	North	เหนือ
+	Norwegian (Bokmål)	นอร์เวย์ (บ็อกมอล)
+	Not	ไม่
+	Not available right now	ใช้ไม่ได้ในขณะนี้
+	Not equal to	ไม่เท่ากับ
+	Not linked: click a text box	ยังไม่เชื่อมโยง: คลิกกล่องข้อความ
+	Not saved	ยังไม่ได้บันทึก
+	Not saved yet	ยังไม่ได้บันทึก
+	Not set: the system's usual places	ไม่ได้ตั้งค่า: ใช้ตำแหน่งปกติของระบบ
+	Not used by any command	ไม่มีคำสั่งใดใช้
+	Not {name}	ไม่ใช่ {name}
+	Nothing	ไม่มีอะไร
+	Nothing collected yet. Items you copy or cut appear here.	ยังไม่มีสิ่งที่เก็บไว้ รายการที่คุณคัดลอกหรือตัดจะแสดงที่นี่
+	nothing is selected	ไม่ได้เลือกสิ่งใด
+	Now used by {command}	ตอนนี้ใช้โดย {command}
+	Nudge	ขยับเล็กน้อย
+	Num Occurrences	จำนวนครั้งที่พบ
+	Number	ตัวเลข
+	Number alignment:	การจัดแนวตัวเลข:
+	Number format	รูปแบบตัวเลข
+	Number of columns:	จำนวนคอลัมน์:
+	Number of rows:	จำนวนแถว:
+	Number of the page the field sits on	หมายเลขหน้าที่ฟิลด์อยู่
+	Number of the section the field sits in	หมายเลขส่วนที่ฟิลด์อยู่
+	Number only, without the label's words	เฉพาะตัวเลข ไม่มีคำของป้ายชื่อ
+	Number style for this level:	สไตล์ตัวเลขสำหรับระดับนี้:
+	Number the equation; the number sits at the right margin (or type # then the number)	ใส่หมายเลขสมการ หมายเลขอยู่ที่ระยะขอบขวา (หรือพิมพ์ # แล้วตามด้วยหมายเลข)
+	Numbering	การกำหนดหมายเลข
+	Numbering:	การกำหนดหมายเลข:
+	Numbering…	การกำหนดหมายเลข…
+	Numerals	ตัวเลข
+	Numerals:	ตัวเลข:
+	n×n Identity Matrix	เมทริกซ์เอกลักษณ์ n×n
+	n×n Matrix	เมทริกซ์ n×n
+	Object	วัตถุ
+	Odd Banded Columns	คอลัมน์สลับสีคี่
+	Odd Banded Rows	แถวสลับสีคี่
+	Odd Page	หน้าคี่
+	Odd pages only	เฉพาะหน้าคี่
+	Off	ปิด
+	Office	สำนักงาน
+	Office 2003 Default	ค่าเริ่มต้น Office 2003
+	Offset (pt):	ระยะเยื้อง (pt):
+	Offset: Bottom	ระยะเยื้อง: ล่าง
+	Offset: Bottom Left	ระยะเยื้อง: ล่างซ้าย
+	Offset: Bottom Right	ระยะเยื้อง: ล่างขวา
+	Offset: Center	ระยะเยื้อง: กึ่งกลาง
+	Offset: Left	ระยะเยื้อง: ซ้าย
+	Offset: Right	ระยะเยื้อง: ขวา
+	Offset: Top	ระยะเยื้อง: บน
+	Offset: Top Left	ระยะเยื้อง: บนซ้าย
+	Offset: Top Right	ระยะเยื้อง: บนขวา
+	OK	ตกลง
+	Omit	ละไว้
+	On	เปิด
+	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	เปิด: เคอร์เซอร์จะเลื่อนไหลไปยังตำแหน่งใหม่เมื่อคุณพิมพ์หรือใช้ปุ่มลูกศร และการกะพริบจะค่อย ๆ จาง ปิด: เคอร์เซอร์จะกระโดดและกะพริบติดดับ
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	เปิด: WordCraft จะเปิดที่ ไฟล์ › หน้าแรก พร้อมเอกสารเปล่า แม่แบบ และเอกสารล่าสุดของคุณ ปิด: จะเปิดเอกสารเปล่า
+	One	หนึ่ง
+	One half	หนึ่งในสอง
+	One label per recipient	หนึ่งป้ายชื่อต่อผู้รับหนึ่งราย
+	One line per item. Enter adds an item.	หนึ่งบรรทัดต่อหนึ่งรายการ กด Enter เพื่อเพิ่มรายการ
+	One Page	หนึ่งหน้า
+	One-sided	ด้านเดียว
+	Only allow this kind of editing:	อนุญาตการแก้ไขเฉพาะแบบนี้:
+	Only comments can be added, except in regions marked editable.	เพิ่มได้เฉพาะความคิดเห็น ยกเว้นในบริเวณที่ทำเครื่องหมายว่าแก้ไขได้
+	Only for the selected text	เฉพาะข้อความที่เลือก
+	Only form fields can be filled in.	กรอกได้เฉพาะฟิลด์แบบฟอร์ม
+	Only the allowed styles can be applied.	ใช้ได้เฉพาะสไตล์ที่อนุญาต
+	Only web (http, https) and email (mailto) links can be followed	ติดตามได้เฉพาะลิงก์เว็บ (http, https) และอีเมล (mailto)
+	Open	เปิด
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	เปิดไฟล์ด้วยตัวเรียกดูของ WordCraft เองเมื่อกล่องโต้ตอบไฟล์ของระบบไม่ปรากฏ
+	OpenDocument Text (*.odt)	OpenDocument Text (*.odt)
+	Opening print dialog…	กำลังเปิดกล่องโต้ตอบการพิมพ์…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	ต่อไปนี้ไฟล์ .docx, .doc, .rtf และ .odt และแม่แบบ Word จะเปิดด้วย WordCraft
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	เปิด การตั้งค่า › แอปเริ่มต้น เพื่อเลือก WordCraft สำหรับ .docx และเอกสารชนิดอื่น
+	Operator	ตัวดำเนินการ
+	Operator Structures	โครงสร้างตัวดำเนินการ
+	Operators	ตัวดำเนินการ
+	Optional Hyphen	ยัติภังค์ตามต้องการ
+	Options	ตัวเลือก
+	Options…	ตัวเลือก…
+	Or	หรือ
+	Or save a copy in another format:	หรือบันทึกสำเนาในรูปแบบอื่น:
+	Ordinals (1st) as superscript	เลขลำดับที่ (1st) เป็นตัวยก
+	Organizer	ตัวจัดระเบียบ
+	Organizer…	ตัวจัดระเบียบ…
+	Orientation	ทิศทางหน้ากระดาษ
+	Original document	เอกสารต้นฉบับ
+	Original size	ขนาดเดิม
+	Other	อื่น ๆ
+	Other Large Operators	ตัวดำเนินการขนาดใหญ่อื่น ๆ
+	Other styles and their TOC level:	สไตล์อื่นและระดับในสารบัญ:
+	Other:	อื่น ๆ:
+	Otherwise insert:	มิฉะนั้นแทรก:
+	Outline	เค้าร่าง
+	Outline Level	ระดับเค้าร่าง
+	Outline level	ระดับเค้าร่าง
+	Outline levels	ระดับเค้าร่าง
+	Outline State	สถานะเค้าร่าง
+	Outline Tools	เครื่องมือเค้าร่าง
+	Outlining	การทำเค้าร่าง
+	Outside border	เส้นขอบนอก
+	Outside Borders	เส้นขอบด้านนอก
+	Outside:	ด้านนอก:
+	Outward Brackets	วงเล็บหันออก
+	Oval	วงรี
+	Overbar	เส้นบน
+	Overbars and Underbars	เส้นบนและเส้นล่าง
+	Overbrace	วงเล็บปีกกาด้านบน
+	Overtype	พิมพ์ทับ
+	Overtype (typing replaces the characters after the caret)	พิมพ์ทับ (การพิมพ์จะแทนที่อักขระหลังเคอร์เซอร์)
+	Page	หน้า
+	Page Background	พื้นหลังหน้า
+	Page Border	เส้นขอบหน้า
+	Page Borders	เส้นขอบหน้า
+	Page Break	ตัวแบ่งหน้า
+	Page Break Before	ตัวแบ่งหน้าก่อน
+	Page break before	ตัวแบ่งหน้าก่อน
+	Page Breaks	ตัวแบ่งหน้า
+	Page Color	สีหน้า
+	Page display	การแสดงหน้า
+	Page Down	เลื่อนหน้าลง
+	Page image (*.png)	ภาพหน้า (*.png)
+	Page Movement	การเคลื่อนที่ของหน้า
+	Page Number	เลขหน้า
+	Page number style	สไตล์เลขหน้า
+	Page numbers at the right margin	เลขหน้าที่ระยะขอบขวา
+	Page on which a bookmarked passage falls	หน้าที่ข้อความที่ทำที่คั่นหน้าไว้อยู่
+	Page Setup	ตั้งค่าหน้ากระดาษ
+	Page title	ชื่อหน้า
+	Page Up	เลื่อนหน้าขึ้น
+	Page Width	ความกว้างหน้า
+	Page width	ความกว้างหน้า
+	Page X of Y	หน้า X จาก Y
+	Page {page}	หน้า {page}
+	Page {page} of {pages}	หน้า {page} จาก {pages}
+	Page\nBorders	เส้นขอบ\nหน้า
+	Page\nColor	สี\nหน้า
+	Page\nNumber	เลข\nหน้า
+	Pages	หน้า
+	Pages like 1-3, 5	หน้าเช่น 1-3, 5
+	Pages of bookmark:	หน้าของที่คั่นหน้า:
+	Paper	กระดาษ
+	Paper size:	ขนาดกระดาษ:
+	Paragraph	ย่อหน้า
+	Paragraph Character	อักขระย่อหน้า
+	Paragraph Details	รายละเอียดย่อหน้า
+	Paragraph Down	ย่อหน้าลง
+	Paragraph Mark	เครื่องหมายย่อหน้า
+	Paragraph marks	เครื่องหมายย่อหน้า
+	Paragraph Settings	การตั้งค่าย่อหน้า
+	Paragraph Spacing	ระยะห่างย่อหน้า
+	Paragraph style	สไตล์ย่อหน้า
+	Paragraph Up	ย่อหน้าขึ้น
+	Paragraphs	ย่อหน้า
+	Paragraph…	ย่อหน้า…
+	Parentheses	วงเล็บ
+	Parentheses with Separator	วงเล็บพร้อมตัวคั่น
+	Partial Differential	ดิฟเฟอเรนเชียลย่อย
+	Password	รหัสผ่าน
+	Password:	รหัสผ่าน:
+	Paste	วาง
+	Paste (⌘V)	วาง (⌘V)
+	Paste All	วางทั้งหมด
+	Paste as:	วางเป็น:
+	Paste Clipboard Item	วางรายการในคลิปบอร์ด
+	Paste Formatting	วางการจัดรูปแบบ
+	Paste function:	วางฟังก์ชัน:
+	Paste Special	วางแบบพิเศษ
+	Paste Special…	วางแบบพิเศษ…
+	Paste: Keep Text Only	วาง: เก็บเฉพาะข้อความ
+	Paste: Merge Formatting	วาง: รวมการจัดรูปแบบ
+	Pastes the clipboard's picture.	วางรูปภาพในคลิปบอร์ด
+	Pause	หยุดชั่วคราว
+	Paused	หยุดชั่วคราวแล้ว
+	PDF document (*.pdf)	เอกสาร PDF (*.pdf)
+	Pen	ปากกา
+	Pencil	ดินสอ
+	Pens	ปากกา
+	People	บุคคล
+	Periodical	สิ่งพิมพ์ต่อเนื่อง
+	Personalize	ปรับให้เป็นของคุณ
+	Phonetic Guide	คู่มือการออกเสียง
+	Pi Over 2	พายส่วนสอง
+	Picas	ไพกา
+	Pick a custom group (New Group makes one)	เลือกกลุ่มกำหนดเอง (กลุ่มใหม่ใช้สร้างกลุ่ม)
+	Pick a field from the list	เลือกฟิลด์จากรายการ
+	Picture	รูปภาพ
+	Picture Border	เส้นขอบรูปภาพ
+	Picture Content Control	ตัวควบคุมเนื้อหารูปภาพ
+	Picture Format	รูปแบบรูปภาพ
+	Picture Styles	สไตล์รูปภาพ
+	Pictures	รูปภาพ
+	Pie	วงกลมแบ่งส่วน
+	Place in This Document	วางในเอกสารนี้
+	Placeholder text	ข้อความตัวยึดตำแหน่ง
+	Plain Table 1	ตารางธรรมดา 1
+	Plain text (*.txt)	ข้อความธรรมดา (*.txt)
+	Plain Text Content Control	ตัวควบคุมเนื้อหาข้อความธรรมดา
+	Play	เล่น
+	Play/Pause	เล่น/หยุดชั่วคราว
+	Plus Equal	บวกเท่ากับ
+	Points	พอยต์
+	Points and above	พอยต์ขึ้นไป
+	Polish	โปแลนด์
+	Portrait	แนวตั้ง
+	Portuguese (Brazil)	โปรตุเกส (บราซิล)
+	Portuguese (Portugal)	โปรตุเกส (โปรตุเกส)
+	Position	ตำแหน่ง
+	Position:	ตำแหน่ง:
+	Possible spelling mistake	อาจสะกดผิด
+	Postal Code	รหัสไปรษณีย์
+	Power series of (1+x)ⁿ	อนุกรมกำลังของ (1+x)ⁿ
+	Preferred width:	ความกว้างที่ต้องการ:
+	Preserve formatting during updates	คงการจัดรูปแบบไว้ระหว่างการอัปเดต
+	Presets	ค่าที่ตั้งไว้ล่วงหน้า
+	Press a key combination	กดชุดแป้น
+	Preview	ตัวอย่าง
+	Preview Results	ดูตัวอย่างผลลัพธ์
+	Preview\nResults	ดูตัวอย่าง\nผลลัพธ์
+	Previous	ก่อนหน้า
+	Previous 1 or More	ก่อนหน้า 1 รายการขึ้นไป
+	Previous Change	การเปลี่ยนแปลงก่อนหน้า
+	Previous Comment	ความคิดเห็นก่อนหน้า
+	Previous Field	ฟิลด์ก่อนหน้า
+	Previous Page	หน้าก่อนหน้า
+	Previous Record	ระเบียนก่อนหน้า
+	Previous Section	ส่วนก่อนหน้า
+	Previous Sentence	ประโยคก่อนหน้า
+	Previous sentence	ประโยคก่อนหน้า
+	Print	พิมพ์
+	Print failed: the printing worker stopped.	พิมพ์ไม่สำเร็จ: ตัวทำงานการพิมพ์หยุดทำงาน
+	Print failed: {error}	พิมพ์ไม่สำเร็จ: {error}
+	Print job submitted.	ส่งงานพิมพ์แล้ว
+	Print job submitted: {receipt}	ส่งงานพิมพ์แล้ว: {receipt}
+	Print Layout	เค้าโครงการพิมพ์
+	Print Markup	พิมพ์เครื่องหมายการแก้ไข
+	Print settings	การตั้งค่าการพิมพ์
+	Print the page color	พิมพ์สีหน้า
+	Print to PDF	พิมพ์เป็น PDF
+	Print\nLayout	เค้าโครง\nการพิมพ์
+	Printer	เครื่องพิมพ์
+	Printer default	ค่าเริ่มต้นของเครื่องพิมพ์
+	Printer discovery failed.	ค้นหาเครื่องพิมพ์ไม่สำเร็จ
+	Printing	กำลังพิมพ์
+	Privacy for this document	ความเป็นส่วนตัวของเอกสารนี้
+	Privacy Options	ตัวเลือกความเป็นส่วนตัว
+	Privacy Settings	การตั้งค่าความเป็นส่วนตัว
+	Process	กระบวนการ
+	Product	ผลคูณ
+	Product of A	ผลคูณของ A
+	Product with Limits	ผลคูณพร้อมขอบเขต
+	Product with Lower Limit	ผลคูณพร้อมขอบเขตล่าง
+	Product with Subscript-Superscript Limits	ผลคูณพร้อมขอบเขตตัวห้อยและตัวยก
+	Products and Coproducts	ผลคูณและโคโปรดักต์
+	Professional	มืออาชีพ
+	Promote	เลื่อนระดับ
+	Promote to Heading 1	เลื่อนระดับเป็นหัวเรื่อง 1
+	Proofing	การพิสูจน์อักษร
+	Proofing Issues	ปัญหาการพิสูจน์อักษร
+	Proofing language	ภาษาที่ใช้พิสูจน์อักษร
+	Properties	คุณสมบัติ
+	Protect	ป้องกัน
+	Protect Document	ป้องกันเอกสาร
+	PRs	Pull Request
+	pt	pt
+	Publisher	สำนักพิมพ์
+	Put the caret in a content control first.	วางเคอร์เซอร์ในตัวควบคุมเนื้อหาก่อน
+	Put the default commands back on the Quick Access Toolbar?	คืนคำสั่งเริ่มต้นบนแถบเครื่องมือด่วนหรือไม่
+	Pyramid	พีระมิด
+	Quadratic Root	รากของสมการกำลังสอง
+	Quick Access Toolbar	แถบเครื่องมือด่วน
+	Quick Parts	ส่วนประกอบด่วน
+	Quick Tables	ตารางด่วน
+	Quote	คำพูด
+	Radical	เครื่องหมายราก
+	Radical with Degree	เครื่องหมายรากพร้อมดีกรี
+	Radicals	เครื่องหมายราก
+	Raised/lowered	ยกขึ้น/ลดลง
+	Read Aloud	อ่านออกเสียง
+	Read Aloud Status	สถานะการอ่านออกเสียง
+	Read Mode	โหมดอ่าน
+	Read\nAloud	อ่าน\nออกเสียง
+	Read\nMode	โหมด\nอ่าน
+	Reading	การอ่าน
+	Reading Column Width	ความกว้างคอลัมน์สำหรับอ่าน
+	Reading Highlight	ไฮไลต์การอ่าน
+	Reading Line Spacing	ระยะห่างบรรทัดสำหรับอ่าน
+	Reading Mode	โหมดอ่าน
+	Reading Speed	ความเร็วในการอ่าน
+	Reading Text Size	ขนาดข้อความสำหรับอ่าน
+	Reads the clipboard's rich text and keeps its formatting.	อ่านริชเท็กซ์ในคลิปบอร์ดและคงการจัดรูปแบบไว้
+	Reads the clipboard's web content and keeps its formatting.	อ่านเนื้อหาเว็บในคลิปบอร์ดและคงการจัดรูปแบบไว้
+	Real name	ชื่อจริง
+	Recent	ล่าสุด
+	Recent Colors	สีที่ใช้ล่าสุด
+	Recent documents to show:	จำนวนเอกสารล่าสุดที่จะแสดง:
+	Recently Used Fonts	แบบอักษรที่ใช้ล่าสุด
+	Recently used symbols:	สัญลักษณ์ที่ใช้ล่าสุด:
+	Recipient List	รายชื่อผู้รับ
+	Recipient lists	รายชื่อผู้รับ
+	Recipients: {count}	ผู้รับ: {count}
+	Recolor a one-color picture, such as an icon	เปลี่ยนสีรูปภาพสีเดียว เช่น ไอคอน
+	Recolor Selected Ink	เปลี่ยนสีหมึกที่เลือก
+	Record Macro	บันทึกมาโคร
+	Recover	กู้คืน
+	Recover Unsaved Documents	กู้คืนเอกสารที่ไม่ได้บันทึก
+	Rectangle	สี่เหลี่ยมผืนผ้า
+	Red:	แดง:
+	Redo	ทำซ้ำ
+	Reduce Hanging Indent	ลดการเยื้องแบบห้อย
+	Reference type:	ชนิดการอ้างอิง:
+	References	การอ้างอิง
+	Reflection	การสะท้อน
+	Refresh	รีเฟรช
+	Refresh printers	รีเฟรชเครื่องพิมพ์
+	Region:	ภูมิภาค:
+	Registered	จดทะเบียน
+	Registered Sign	เครื่องหมายจดทะเบียน
+	Regular expressions	นิพจน์ปกติ
+	Reject	ปฏิเสธ
+	Reject All Changes	ปฏิเสธการเปลี่ยนแปลงทั้งหมด
+	Reject Change	ปฏิเสธการเปลี่ยนแปลง
+	Relationship	ความสัมพันธ์
+	Relative to original picture size	เทียบกับขนาดรูปภาพเดิม
+	Relaxed	หลวม
+	Remove	นำออก
+	Remove Added Font	นำแบบอักษรที่เพิ่มออก
+	Remove Background	ลบพื้นหลัง
+	Remove condition	นำเงื่อนไขออก
+	Remove Content Control	นำตัวควบคุมเนื้อหาออก
+	Remove every custom shortcut and restore the built-in keys?	ลบแป้นพิมพ์ลัดที่กำหนดเองทั้งหมดและคืนค่าแป้นในตัวหรือไม่
+	Remove every custom tab and group and show all tabs again?	ลบแท็บและกลุ่มที่กำหนดเองทั้งหมดและแสดงทุกแท็บอีกครั้งหรือไม่
+	Remove field	นำฟิลด์ออก
+	Remove Footer	ลบส่วนท้าย
+	Remove from Quick Access Toolbar	นำออกจากแถบเครื่องมือด่วน
+	Remove Header	ลบส่วนหัว
+	Remove Hyperlink	ลบไฮเปอร์ลิงก์
+	Remove my name from comments, changes and file properties when saving	ลบชื่อของฉันออกจากความคิดเห็น การเปลี่ยนแปลง และคุณสมบัติไฟล์เมื่อบันทึก
+	Remove Password	ลบรหัสผ่าน
+	Remove Pen	นำปากกาออก
+	Remove recipient	นำผู้รับออก
+	Remove row	นำแถวออก
+	Remove series	นำชุดข้อมูลออก
+	Remove Space After Paragraph	ลบระยะห่างหลังย่อหน้า
+	Remove Table of Contents	ลบสารบัญ
+	Remove the control once edited	นำตัวควบคุมออกหลังจากแก้ไขแล้ว
+	Remove the space before the punctuation	ลบช่องว่างก่อนเครื่องหมายวรรคตอน
+	Remove Watermark	ลบลายน้ำ
+	Rename	เปลี่ยนชื่อ
+	Rename Document	เปลี่ยนชื่อเอกสาร
+	Rename Style	เปลี่ยนชื่อสไตล์
+	Rename…	เปลี่ยนชื่อ…
+	Reopen	เปิดใหม่
+	Repeat	ทำซ้ำ
+	Repeat as header row on each page	ทำซ้ำเป็นแถวส่วนหัวในทุกหน้า
+	Repeat Header Rows	ทำซ้ำแถวส่วนหัว
+	Repeating Section Content Control	ตัวควบคุมเนื้อหาส่วนที่ซ้ำ
+	Replace	แทนที่
+	Replace All	แทนที่ทั้งหมด
+	Replace as you type	แทนที่ขณะพิมพ์
+	Replace Document Text	แทนที่ข้อความเอกสาร
+	Replace text as you type	แทนที่ข้อความขณะพิมพ์
+	Replace with:	แทนที่ด้วย:
+	Replace:	แทนที่:
+	Replay	เล่นซ้ำ
+	Reply	ตอบกลับ
+	Report	รายงาน
+	Research	ค้นคว้า
+	Researcher	ตัวช่วยค้นคว้า
+	Researcher needs an online service; WordCraft keeps your documents offline.	ตัวช่วยค้นคว้าต้องใช้บริการออนไลน์ WordCraft เก็บเอกสารของคุณไว้ในเครื่องโดยไม่ออนไลน์
+	Reset	รีเซ็ต
+	Reset All…	รีเซ็ตทั้งหมด…
+	Reset Character Formatting	รีเซ็ตการจัดรูปแบบอักขระ
+	Reset Crop	รีเซ็ตการครอบตัด
+	Reset Graphic	รีเซ็ตกราฟิก
+	Reset Paragraph Formatting	รีเซ็ตการจัดรูปแบบย่อหน้า
+	Reset Picture	รีเซ็ตรูปภาพ
+	Reset to Normal	รีเซ็ตเป็นปกติ
+	Reset\nGraphic	รีเซ็ต\nกราฟิก
+	Reset…	รีเซ็ต…
+	Resize Table by Dragging	ปรับขนาดตารางด้วยการลาก
+	Resolve	แก้ไขแล้ว
+	Resolved	แก้ไขเรียบร้อยแล้ว
+	Restart at 1	เริ่มใหม่ที่ 1
+	Restart Each Page	เริ่มใหม่ทุกหน้า
+	Restart Each Section	เริ่มใหม่ทุกส่วน
+	Restart list after:	เริ่มรายการใหม่หลังจาก:
+	Restrict Editing	จำกัดการแก้ไข
+	Restrict\nEditing	จำกัด\nการแก้ไข
+	Result	ผลลัพธ์
+	Results	ผลลัพธ์
+	Return address labels	ป้ายที่อยู่ผู้ส่ง
+	Return address:	ที่อยู่ผู้ส่ง:
+	Reverse the order	กลับลำดับ
+	Review	ตรวจทาน
+	Reviewing	กำลังตรวจทาน
+	Reviewing Pane	บานหน้าต่างตรวจทาน
+	Reviewing — edits become suggestions	ตรวจทาน — การแก้ไขจะกลายเป็นข้อเสนอแนะ
+	Revised document	เอกสารฉบับแก้ไข
+	Rewind	กรอกลับ
+	Ribbon	ริบบอน
+	Ribbon and Quick Access Toolbar:	ริบบอนและแถบเครื่องมือด่วน:
+	Ribbon tabs	แท็บริบบอน
+	Rich Text Content Control	ตัวควบคุมเนื้อหาริชเท็กซ์
+	Rich Text Format (*.rtf)	Rich Text Format (*.rtf)
+	Rich Text Format (RTF)	Rich Text Format (RTF)
+	Right	ขวา
+	Right (vertical)	ขวา (แนวตั้ง)
+	Right Arrow with Text Above	ลูกศรชี้ขวาพร้อมข้อความด้านบน
+	Right Arrow with Text Below	ลูกศรชี้ขวาพร้อมข้อความด้านล่าง
+	Right border	เส้นขอบขวา
+	Right Border	เส้นขอบขวา
+	Right Bracket Twice	วงเล็บขวาสองครั้ง
+	Right indent	การเยื้องขวา
+	Right Margin	ระยะขอบขวา
+	Right Only	เฉพาะด้านขวา
+	Right-to-left	ขวาไปซ้าย
+	Right-to-Left Section	ส่วนขวาไปซ้าย
+	Right-to-Left Table	ตารางขวาไปซ้าย
+	Right-to-Left Text Direction	ทิศทางข้อความขวาไปซ้าย
+	Right:	ขวา:
+	Rightwards Arrow Above	ลูกศรชี้ขวาด้านบน
+	Rightwards Harpoon Above	ฉมวกชี้ขวาด้านบน
+	Roots of ax²+bx+c	รากของ ax²+bx+c
+	Rotate	หมุน
+	Rotate all text 270°	หมุนข้อความทั้งหมด 270°
+	Rotate all text 90°	หมุนข้อความทั้งหมด 90°
+	Rotate Left 90°	หมุนซ้าย 90°
+	Rotate Right 90°	หมุนขวา 90°
+	Rotation	การหมุน
+	Rotation:	การหมุน:
+	Rounded Rectangle	สี่เหลี่ยมมุมมน
+	Row	แถว
+	Row:	แถว:
+	Rows & Columns	แถวและคอลัมน์
+	Ruby text:	ข้อความกำกับ (รูบี):
+	Ruler	ไม้บรรทัด
+	Rules	กฎ
+	Run-in	ต่อเนื่องในบรรทัด
+	Russian	รัสเซีย
+	Résumé	ประวัติย่อ
+	SAMPLE	ตัวอย่าง
+	Sat:	ส:
+	Save	บันทึก
+	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	บันทึกสำเนาในรูปแบบอื่น การพิมพ์จะผ่าน PDF ซึ่งพิมพ์ได้จากโปรแกรมอ่านใดก็ได้
+	Save As	บันทึกเป็น
+	Save as Template	บันทึกเป็นแม่แบบ
+	Save documents	บันทึกเอกสาร
+	Save the document to turn on AutoSave	บันทึกเอกสารเพื่อเปิดการบันทึกอัตโนมัติ
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	บันทึกเอกสารเพื่อเปิดการบันทึกอัตโนมัติ (ไฟล์ที่คุณเพียงเปิดจะไม่ถูกเขียนทับจนกว่าคุณจะบันทึก)
+	Save these pages as PDF…	บันทึกหน้าเหล่านี้เป็น PDF…
+	Saved	บันทึกแล้ว
+	Saving {name} was cancelled, so it is still open and nothing was lost.	ยกเลิกการบันทึก {name} จึงยังเปิดอยู่และไม่มีอะไรสูญหาย
+	Scale	มาตราส่วน
+	Scale Drawing	มาตราส่วนภาพวาด
+	Scatter	กระจาย
+	Script	สคริปต์
+	Scripts	สคริปต์
+	Scroll ribbon left	เลื่อนริบบอนไปทางซ้าย
+	Scroll ribbon right	เลื่อนริบบอนไปทางขวา
+	Search	ค้นหา
+	Search Commands	ค้นหาคำสั่ง
+	Search commands and help	ค้นหาคำสั่งและวิธีใช้
+	Search document	ค้นหาในเอกสาร
+	Search for templates	ค้นหาแม่แบบ
+	Search icons	ค้นหาไอคอน
+	Search Options	ตัวเลือกการค้นหา
+	Secant Function	ฟังก์ชันเซแคนต์
+	Section 1.01	มาตรา 1.01
+	Section Break	ตัวแบ่งส่วน
+	Section Breaks	ตัวแบ่งส่วน
+	Section Character	อักขระส่วน
+	Section direction:	ทิศทางส่วน:
+	Section Mark	เครื่องหมายส่วน
+	Section Properties	คุณสมบัติส่วน
+	Sections	ส่วน
+	See	ดู
+	Select	เลือก
+	select a picture or shape first	เลือกรูปภาพหรือรูปร่างก่อน
+	Select a picture, shape, chart or table to describe it.	เลือกรูปภาพ รูปร่าง แผนภูมิ หรือตารางเพื่ออธิบาย
+	Select a printer	เลือกเครื่องพิมพ์
+	Select All	เลือกทั้งหมด
+	Select Cell	เลือกเซลล์
+	Select Column	เลือกคอลัมน์
+	Select Heading and Content	เลือกหัวเรื่องและเนื้อหา
+	Select Line	เลือกบรรทัด
+	Select Objects	เลือกวัตถุ
+	Select Paragraph	เลือกย่อหน้า
+	Select Range	เลือกช่วง
+	Select Recipients	เลือกผู้รับ
+	select recipients first	เลือกผู้รับก่อน
+	Select recipients first to choose from their fields.	เลือกผู้รับก่อนเพื่อเลือกจากฟิลด์ของพวกเขา
+	Select recipients first to match their fields.	เลือกผู้รับก่อนเพื่อจับคู่ฟิลด์ของพวกเขา
+	Select Row	เลือกแถว
+	Select Sentence	เลือกประโยค
+	Select Table	เลือกตาราง
+	Select Table Cells by Clicking	เลือกเซลล์ตารางด้วยการคลิก
+	Select Text	เลือกข้อความ
+	Select Text with Similar Formatting	เลือกข้อความที่จัดรูปแบบคล้ายกัน
+	Select text, then tick who can still edit it.	เลือกข้อความ แล้วติ๊กว่าใครยังแก้ไขได้
+	select two or more cells to merge	เลือกเซลล์สองเซลล์ขึ้นไปเพื่อรวม
+	select two or more pictures or shapes first (Shift+click)	เลือกรูปภาพหรือรูปร่างสองรายการขึ้นไปก่อน (Shift+คลิก)
+	Select Word	เลือกคำ
+	Select\nRecipients	เลือก\nผู้รับ
+	Selected Fields	ฟิลด์ที่เลือก
+	Selected pages	หน้าที่เลือก
+	Selected text	ข้อความที่เลือก
+	Selection	ส่วนที่เลือก
+	Selection Pane	บานหน้าต่างการเลือก
+	Send Backward	ส่งไปข้างหลัง
+	Send the document straight to the system print dialog, or save a copy in another format below.	ส่งเอกสารไปยังกล่องโต้ตอบการพิมพ์ของระบบโดยตรง หรือบันทึกสำเนาในรูปแบบอื่นด้านล่าง
+	Sentence	ประโยค
+	Sentence case.	ตัวพิมพ์ใหญ่ต้นประโยค
+	Separate text at	แยกข้อความที่
+	Separator:	ตัวคั่น:
+	Sequence name:	ชื่อลำดับ:
+	Serbian (Cyrillic)	เซอร์เบีย (ซีริลลิก)
+	Serbian (Latin)	เซอร์เบีย (ละติน)
+	Series name	ชื่อชุดข้อมูล
+	Series {n}	ชุดข้อมูล {n}
+	Set	ตั้ง
+	Set as Default	ตั้งเป็นค่าเริ่มต้น
+	Set As Default	ตั้งเป็นค่าเริ่มต้น
+	Set Caret	ตั้งเคอร์เซอร์
+	Set Character Formatting	ตั้งการจัดรูปแบบอักขระ
+	Set Date	ตั้งวันที่
+	Set Equation	ตั้งสมการ
+	Set Numbering Value	ตั้งค่าลำดับเลข
+	Set Paragraph Formatting	ตั้งการจัดรูปแบบย่อหน้า
+	Set Proofing Language…	ตั้งภาษาที่ใช้พิสูจน์อักษร…
+	Setting:	การตั้งค่า:
+	Settings…	การตั้งค่า…
+	Shading	การแรเงา
+	Shadow	เงา
+	Shadow, glow and soft edges	เงา เรืองแสง และขอบเบลอ
+	Shape Effects	เอฟเฟกต์รูปร่าง
+	Shape Fill	เติมสีรูปร่าง
+	Shape Format	รูปแบบรูปร่าง
+	Shape Outline	เส้นขอบรูปร่าง
+	Shape Styles	สไตล์รูปร่าง
+	Shapes	รูปร่าง
+	Share	แชร์
+	Shift+Tab	Shift+Tab
+	Shipping labels	ป้ายจัดส่ง
+	Shortcut key:	แป้นลัด:
+	Show	แสดง
+	Show alignment guides when moving pictures and shapes	แสดงเส้นช่วยจัดแนวเมื่อย้ายรูปภาพและรูปร่าง
+	Show all formatting marks	แสดงเครื่องหมายการจัดรูปแบบทั้งหมด
+	Show All Levels	แสดงทุกระดับ
+	Show all revisions inline	แสดงการแก้ไขทั้งหมดในบรรทัด
+	Show changes at:	แสดงการเปลี่ยนแปลงที่:
+	Show changes in:	แสดงการเปลี่ยนแปลงใน:
+	Show Comments	แสดงความคิดเห็น
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	แสดงเอกสารโดยกลับสี เหมือน มุมมอง › สลับโหมด การบันทึก การพิมพ์ และ PDF ไม่เปลี่ยนแปลง
+	Show every bibliography field	แสดงทุกฟิลด์ของบรรณานุกรม
+	Show First Line Only	แสดงเฉพาะบรรทัดแรก
+	Show in the Styles gallery	แสดงในแกลเลอรีสไตล์
+	Show its list number	แสดงหมายเลขรายการของมัน
+	Show its number relative to this field	แสดงหมายเลขของมันเทียบกับฟิลด์นี้
+	Show its number with all higher levels	แสดงหมายเลขของมันพร้อมทุกระดับที่สูงกว่า
+	Show KeyTips (Alt or F10)	แสดงคำแนะนำแป้นลัด (Alt หรือ F10)
+	Show Level	แสดงระดับ
+	Show Level 1	แสดงระดับ 1
+	Show Level 2	แสดงระดับ 2
+	Show Level 3	แสดงระดับ 3
+	Show Level 4	แสดงระดับ 4
+	Show Level 5	แสดงระดับ 5
+	Show Level 6	แสดงระดับ 6
+	Show Level 7	แสดงระดับ 7
+	Show Level 8	แสดงระดับ 8
+	Show Level 9	แสดงระดับ 9
+	Show Markup	แสดงเครื่องหมายการแก้ไข
+	Show Notes	แสดงบันทึก
+	Show only comments and formatting in balloons	แสดงเฉพาะความคิดเห็นและการจัดรูปแบบในลูกโป่ง
+	Show only records that will be merged	แสดงเฉพาะระเบียนที่จะถูกรวม
+	Show or Hide Style	แสดงหรือซ่อนสไตล์
+	Show Quick Access Toolbar	แสดงแถบเครื่องมือด่วน
+	Show revisions in balloons	แสดงการแก้ไขในลูกโป่ง
+	Show rulers	แสดงไม้บรรทัด
+	Show Text Formatting	แสดงการจัดรูปแบบข้อความ
+	Show the community button in the title bar	แสดงปุ่มชุมชนในแถบชื่อเรื่อง
+	Show the equation in the line of text	แสดงสมการในบรรทัดข้อความ
+	Show the equation on a line of its own	แสดงสมการในบรรทัดของตัวเอง
+	Show the mini toolbar when text is selected	แสดงแถบเครื่องมือขนาดเล็กเมื่อเลือกข้อความ
+	Show the Start screen when WordCraft starts	แสดงหน้าจอเริ่มต้นเมื่อ WordCraft เริ่มทำงาน
+	Show/Hide ¶	แสดง/ซ่อน ¶
+	Show\nComments	แสดง\nความคิดเห็น
+	Showing the first {count} items.	แสดง {count} รายการแรก
+	Shows a tree: each item below the item it belongs to.	แสดงแผนผังต้นไม้ แต่ละรายการอยู่ใต้รายการที่มันสังกัด
+	Shows items around a central idea: the first item is the centre.	แสดงรายการรอบแนวคิดกลาง รายการแรกคือศูนย์กลาง
+	Shows items of equal weight as blocks in rows.	แสดงรายการที่มีน้ำหนักเท่ากันเป็นบล็อกในแถว
+	Shows overlapping ideas as overlapping circles.	แสดงแนวคิดที่ทับซ้อนกันเป็นวงกลมทับซ้อน
+	Shows parts of a whole as quadrants.	แสดงส่วนต่าง ๆ ของทั้งหมดเป็นสี่ส่วน
+	Shows parts that build on each other, largest at the bottom.	แสดงส่วนที่ต่อยอดกัน ใหญ่ที่สุดอยู่ล่างสุด
+	Shows steps in order, left to right, with arrows between them.	แสดงขั้นตอนตามลำดับจากซ้ายไปขวา พร้อมลูกศรคั่น
+	Shows steps that repeat, around a circle.	แสดงขั้นตอนที่ทำซ้ำรอบวงกลม
+	Shrink Font 1 Point	ลดแบบอักษร 1 พอยต์
+	Shrink text	ย่อข้อความ
+	Side to Side	ข้างต่อข้าง
+	Side\nto Side	ข้าง\nต่อข้าง
+	Sides of a right triangle	ด้านของสามเหลี่ยมมุมฉาก
+	Signature Line	เส้นลายเซ็น
+	Sine and cosine series of f(x)	อนุกรมไซน์และโคไซน์ของ f(x)
+	Sine Function	ฟังก์ชันไซน์
+	Sine theta	ไซน์ทีตา
+	Single	เดี่ยว
+	Single Brackets	วงเล็บเดี่ยว
+	Single Closing Quote	เครื่องหมายคำพูดปิดเดี่ยว
+	Single label	ป้ายชื่อเดียว
+	Single Left Angle	วงเล็บมุมซ้ายเดี่ยว
+	Single Left Bar	เส้นแนวตั้งซ้ายเดี่ยว
+	Single Left Brace	วงเล็บปีกกาซ้ายเดี่ยว
+	Single Left Bracket	วงเล็บเหลี่ยมซ้ายเดี่ยว
+	Single Left Parenthesis	วงเล็บซ้ายเดี่ยว
+	Single Opening Quote	เครื่องหมายคำพูดเปิดเดี่ยว
+	Single Right Brace	วงเล็บปีกกาขวาเดี่ยว
+	Single Right Bracket	วงเล็บเหลี่ยมขวาเดี่ยว
+	Single Right Parenthesis	วงเล็บขวาเดี่ยว
+	Single Spacing	ระยะห่างบรรทัดเดี่ยว
+	SIST02	SIST02
+	Site name	ชื่อเว็บไซต์
+	Size	ขนาด
+	Size (pt):	ขนาด (pt):
+	Size and Crop…	ขนาดและการครอบตัด…
+	Size:	ขนาด:
+	Sketchbook	สมุดสเก็ตช์
+	Skewed Fraction	เศษส่วนเอียง
+	Skip citations & bibliography	ข้ามการอ้างอิงและบรรณานุกรม
+	Skip Citations and Bibliography	ข้ามการอ้างอิงและบรรณานุกรม
+	Skip Record If	ข้ามระเบียนถ้า
+	Skip Record If…	ข้ามระเบียนถ้า…
+	Slant Down	เอียงลง
+	Slant Up	เอียงขึ้น
+	Small Caps	ตัวพิมพ์ใหญ่ขนาดเล็ก
+	Small caps	ตัวพิมพ์ใหญ่ขนาดเล็ก
+	Small change	การเปลี่ยนแปลงเล็กน้อย
+	Smart quotes instead of straight quotes	เครื่องหมายคำพูดแบบโค้งแทนแบบตรง
+	SmartArt	SmartArt
+	SmartArt Design	ออกแบบ SmartArt
+	SmartArt Styles	สไตล์ SmartArt
+	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	การเลื่อนและซูมแบบนุ่มนวล และเมนูกับปุ่มที่ค่อย ๆ ปรากฏ ปิดเพื่อแสดงทุกการเปลี่ยนแปลงทันที
+	Soft Edges	ขอบเบลอ
+	Soft Glow	เรืองแสงนุ่ม
+	Solid Accent	สีเน้นทึบ
+	Sort	เรียงลำดับ
+	Sort by	เรียงตาม
+	Sort by:	เรียงตาม:
+	Sort order:	ลำดับการเรียง:
+	Sort Recipients	เรียงลำดับผู้รับ
+	Source code: github.com/storytold/wordcraft	ซอร์สโค้ด: github.com/storytold/wordcraft
+	Source Manager	ตัวจัดการแหล่งข้อมูล
+	Source type:	ชนิดแหล่งข้อมูล:
+	Sources in this document:	แหล่งข้อมูลในเอกสารนี้:
+	South	ใต้
+	Space	ช่องว่าง
+	Space after	ระยะห่างหลัง
+	Space after: {pt} pt	ระยะห่างหลัง: {pt} pt
+	Space before	ระยะห่างก่อน
+	Space before/after:	ระยะห่างก่อน/หลัง:
+	Space before: {pt} pt	ระยะห่างก่อน: {pt} pt
+	Spaces	ช่องว่าง
+	Spacing	ระยะห่าง
+	Spacing (pt):	ระยะห่าง (pt):
+	Spacing:	ระยะห่าง:
+	Spanish (Mexico)	สเปน (เม็กซิโก)
+	Spanish (Spain)	สเปน (สเปน)
+	Sparse Matrices	เมทริกซ์เบาบาง
+	Special	พิเศษ
+	Special Characters	อักขระพิเศษ
+	Specify height:	กำหนดความสูง:
+	Speech	เสียงพูด
+	Speed	ความเร็ว
+	Spelling	การสะกดคำ
+	Spelling & Grammar	การสะกดคำและไวยากรณ์
+	Spelling &\nGrammar	การสะกดคำ &\nไวยากรณ์
+	Spelling and grammar are checked in English (United States).	ตรวจการสะกดคำและไวยากรณ์เป็นภาษาอังกฤษ (สหรัฐอเมริกา)
+	Spelling Suggestions	คำแนะนำการสะกดคำ
+	Spike	สไปก์
+	Split	แบ่ง
+	Split Cells	แบ่งเซลล์
+	Split Table	แบ่งตาราง
+	Spreadsheet Table	ตารางสเปรดชีต
+	Square	สี่เหลี่ยมจัตุรัส
+	Square Root	รากที่สอง
+	Square Root with Degree	รากที่สองพร้อมดีกรี
+	Square Union	ยูเนียนสี่เหลี่ยม
+	Stack Object	วางวัตถุซ้อน
+	Stack Object (Three)	วางวัตถุซ้อน (สาม)
+	Stacked	ซ้อนกัน
+	Stacked Bar	แท่งซ้อน
+	Stacked Column	คอลัมน์ซ้อน
+	Stacked Fraction	เศษส่วนซ้อน
+	Stacked, no bar	ซ้อนกัน ไม่มีเส้น
+	Standard	มาตรฐาน
+	Standard Colors	สีมาตรฐาน
+	Star	ดาว
+	Start at:	เริ่มที่:
+	Start Enforcing Protection	เริ่มบังคับใช้การป้องกัน
+	Start Mail Merge	เริ่มการพิมพ์เวียน
+	Start Mail\nMerge	เริ่มการ\nพิมพ์เวียน
+	Start-up	เริ่มต้นระบบ
+	State	รัฐ
+	Statistics	สถิติ
+	Status Bar	แถบสถานะ
+	Stop	หยุด
+	Stop Protection	หยุดการป้องกัน
+	Stop Reading	หยุดการอ่าน
+	Stopped	หยุดแล้ว
+	Straight Arrow Connector	ตัวเชื่อมลูกศรตรง
+	Straight Connector	ตัวเชื่อมตรง
+	Strikethrough	ขีดฆ่า
+	Stroke {n} of {total}	เส้นที่ {n} จาก {total}
+	Strong	เน้นหนัก
+	Structure Actions	การดำเนินการโครงสร้าง
+	Structures	โครงสร้าง
+	Studio	สตูดิโอ
+	Studio cover	หน้าปกสตูดิโอ
+	Studio handbook (sample)	คู่มือสตูดิโอ (ตัวอย่าง)
+	Style	สไตล์
+	Style based on:	สไตล์อ้างอิงจาก:
+	Style Inspector	ตัวตรวจสอบสไตล์
+	Style name:	ชื่อสไตล์:
+	Style Set	ชุดสไตล์
+	Style:	สไตล์:
+	Style: {style}	สไตล์: {style}
+	Styles	สไตล์
+	Styles Pane	บานหน้าต่างสไตล์
+	Styles:	สไตล์:
+	Subentry:	รายการย่อย:
+	Subject	เรื่อง
+	Submit print job	ส่งงานพิมพ์
+	Submitting print job…	กำลังส่งงานพิมพ์…
+	Subscript	ตัวห้อย
+	Subscript-Superscript	ตัวห้อยและตัวยก
+	Subscripts and Superscripts	ตัวห้อยและตัวยก
+	Subset:	ชุดย่อย:
+	Subtitle	ชื่อรอง
+	Subtle Emphasis	เน้นเบา
+	Subtle Reference	การอ้างอิงเบา
+	Suggested	แนะนำ
+	Sum	ผลรวม
+	Sum of cosines	ผลรวมของโคไซน์
+	Sum or difference of sines	ผลรวมหรือผลต่างของไซน์
+	Summation	ผลรวม
+	Summation from 0 to n	ผลรวมจาก 0 ถึง n
+	Summation over binomials	ผลรวมเหนือสัมประสิทธิ์ทวินาม
+	Summation with Limits	ผลรวมพร้อมขอบเขต
+	Summation with Lower Limit	ผลรวมพร้อมขอบเขตล่าง
+	Summation with Subscript Limit	ผลรวมพร้อมขอบเขตตัวห้อย
+	Summation with Subscript-Superscript Limits	ผลรวมพร้อมขอบเขตตัวห้อยและตัวยก
+	Summations	ผลรวม
+	Superscript	ตัวยก
+	Suppress line numbers	ระงับหมายเลขบรรทัด
+	Surface Integral	ปริพันธ์พื้นผิว
+	Surface Integral with Limits	ปริพันธ์พื้นผิวพร้อมขอบเขต
+	Surface Integral with Stacked Limits	ปริพันธ์พื้นผิวพร้อมขอบเขตซ้อน
+	Swap footnotes and endnotes	สลับเชิงอรรถและอ้างอิงท้ายเอกสาร
+	Swedish	สวีเดน
+	Switch Modes	สลับโหมด
+	Switch\nModes	สลับ\nโหมด
+	Symbol	สัญลักษณ์
+	Symbols	สัญลักษณ์
+	Synonyms	คำพ้องความหมาย
+	System	ระบบ
+	Tab	แท็บ
+	Tab character	อักขระแท็บ
+	Tab Character	อักขระแท็บ
+	Tab characters	อักขระแท็บ
+	Tab leader:	เส้นนำแท็บ:
+	Tab stop position:	ตำแหน่งจุดตั้งระยะแท็บ:
+	Tab stops to be cleared:	จุดตั้งระยะแท็บที่จะล้าง:
+	Table	ตาราง
+	Table Column Width	ความกว้างคอลัมน์ตาราง
+	Table Design	ออกแบบตาราง
+	Table direction:	ทิศทางตาราง:
+	Table Grid	เส้นตารางตาราง
+	Table Layout	เค้าโครงตาราง
+	Table of Authorities	ตารางอำนาจหน้าที่
+	Table of Contents	สารบัญ
+	Table of Contents Options	ตัวเลือกสารบัญ
+	Table of Contents Styles	สไตล์สารบัญ
+	Table of Figures	ตารางรูปภาพ
+	Table of\nContents	สารบัญ
+	Table Properties	คุณสมบัติตาราง
+	Table Properties…	คุณสมบัติตาราง…
+	Table Row Height	ความสูงแถวตาราง
+	Table size	ขนาดตาราง
+	Table style	สไตล์ตาราง
+	Table Style Options	ตัวเลือกสไตล์ตาราง
+	Table Styles	สไตล์ตาราง
+	Tables	ตาราง
+	Tabs	แท็บ
+	Tabs…	แท็บ…
+	Tabular List	รายการแบบตาราง
+	Tag	แท็ก
+	Take the last match on the page	ใช้รายการที่ตรงกันรายการสุดท้ายในหน้า
+	Tangent formula	สูตรแทนเจนต์
+	Tangent Function	ฟังก์ชันแทนเจนต์
+	TC entry fields	ฟิลด์รายการ TC
+	Technology	เทคโนโลยี
+	Templates	แม่แบบ
+	Templates and Add-ins	แม่แบบและส่วนเสริม
+	Text	ข้อความ
+	Text Box	กล่องข้อความ
+	Text boxes	กล่องข้อความ
+	text boxes can't go inside a text box	ไม่สามารถวางกล่องข้อความไว้ในกล่องข้อความได้
+	Text Direction	ทิศทางข้อความ
+	Text Effects	เอฟเฟกต์ข้อความ
+	Text Effects and Typography	เอฟเฟกต์ข้อความและการพิมพ์
+	Text Fill	เติมสีข้อความ
+	Text from File	ข้อความจากไฟล์
+	Text Highlight Color	สีไฮไลต์ข้อความ
+	Text indent at:	การเยื้องข้อความที่:
+	Text of the nearest paragraph with a given style (running headers)	ข้อความของย่อหน้าที่ใกล้ที่สุดซึ่งมีสไตล์ที่กำหนด (หัวกระดาษที่เปลี่ยนตามหน้า)
+	Text Outline	เส้นขอบข้อความ
+	Text over Colon Equal	ข้อความเหนือโคลอนเท่ากับ
+	Text over Equal	ข้อความเหนือเท่ากับ
+	Text Pane	บานหน้าต่างข้อความ
+	Text size	ขนาดข้อความ
+	Text snaps to characters	ข้อความดูดติดอักขระ
+	Text to display:	ข้อความที่จะแสดง:
+	Text Wrapping	การตัดข้อความรอบวัตถุ
+	Text:	ข้อความ:
+	Text\nBox	กล่อง\nข้อความ
+	Text\nDirection	ทิศทาง\nข้อความ
+	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	รูปแบบนั้นเก็บข้อมูลไม่ครบ เอกสารจึงยังเปิดอยู่ บันทึกเป็นเอกสาร Word (.docx) เพื่อดำเนินการต่อ
+	That password isn't right. Check it (passwords are case-sensitive) and try again.	รหัสผ่านไม่ถูกต้อง ตรวจสอบรหัสผ่าน (แยกตัวพิมพ์ใหญ่เล็ก) แล้วลองอีกครั้ง
+	The clipboard is empty.	คลิปบอร์ดว่างเปล่า
+	the cursor isn't in a table	เคอร์เซอร์ไม่ได้อยู่ในตาราง
+	The date it is today	วันที่ของวันนี้
+	The document has no bookmarks yet.	เอกสารยังไม่มีที่คั่นหน้า
+	The document is read only, except for regions marked editable.	เอกสารเป็นแบบอ่านอย่างเดียว ยกเว้นบริเวณที่ทำเครื่องหมายว่าแก้ไขได้
+	The document will be saved with a password. Save it to protect it.	เอกสารจะถูกบันทึกพร้อมรหัสผ่าน บันทึกเพื่อป้องกัน
+	The document you are editing keeps the names and dates; only the saved file leaves them out.	เอกสารที่คุณกำลังแก้ไขยังเก็บชื่อและวันที่ไว้ เฉพาะไฟล์ที่บันทึกเท่านั้นที่ตัดออก
+	The margins don't fit on a page this size; make the margins smaller first.	ระยะขอบไม่พอดีกับหน้ากระดาษขนาดนี้ ให้ลดระยะขอบก่อน
+	The measurement must be between {min} and {max}.	ค่าวัดต้องอยู่ระหว่าง {min} ถึง {max}
+	The new style takes the formatting of the current paragraph.	สไตล์ใหม่จะใช้การจัดรูปแบบของย่อหน้าปัจจุบัน
+	The number must be between 1 and {max}.	ตัวเลขต้องอยู่ระหว่าง 1 ถึง {max}
+	the paragraph is empty	ย่อหน้าว่างเปล่า
+	the paragraph starts with a space	ย่อหน้าขึ้นต้นด้วยช่องว่าง
+	The password is optional; without it anyone can stop the protection.	รหัสผ่านเป็นตัวเลือก หากไม่มี ใครก็หยุดการป้องกันได้
+	The password is removed. Save the document to keep the change.	ลบรหัสผ่านแล้ว บันทึกเอกสารเพื่อเก็บการเปลี่ยนแปลง
+	The passwords don't match.	รหัสผ่านไม่ตรงกัน
+	The printer, two-sided printing and pages per sheet are chosen in that dialog.	เลือกเครื่องพิมพ์ การพิมพ์สองหน้า และจำนวนหน้าต่อแผ่นในกล่องโต้ตอบนั้น
+	The recipient-list field that fills each part of an address block and greeting line.	ฟิลด์ในรายชื่อผู้รับที่เติมแต่ละส่วนของบล็อกที่อยู่และบรรทัดคำทักทาย
+	The spelling and grammar check is complete.	ตรวจการสะกดคำและไวยากรณ์เสร็จสมบูรณ์
+	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	กล่องโต้ตอบไฟล์ของระบบไม่พร้อมใช้งาน WordCraft จึงแสดงกล่องของตัวเอง หากต้องการกล่องของระบบ ให้ติดตั้งพอร์ทัลตัวเลือกไฟล์ (เช่น xdg-desktop-portal-gtk) หรือ zenity
+	The time right now	เวลาปัจจุบัน
+	Theme Colors	สีของชุดรูปแบบ
+	Theme Fonts	แบบอักษรของชุดรูปแบบ
+	Theme List	รายการชุดรูปแบบ
+	Themes	ชุดรูปแบบ
+	Then by	จากนั้นเรียงตาม
+	Then insert:	จากนั้นแทรก:
+	there is no ink to replay	ไม่มีหมึกที่จะเล่นซ้ำ
+	there's no citation after the caret	ไม่มีการอ้างอิงหลังเคอร์เซอร์
+	Thesaurus	พจนานุกรมคำพ้องความหมาย
+	These marks show even when Show/Hide ¶ is off.	เครื่องหมายเหล่านี้แสดงแม้ปิด แสดง/ซ่อน ¶ อยู่
+	These merge fields aren't in the recipient list:	ฟิลด์การพิมพ์เวียนเหล่านี้ไม่อยู่ในรายชื่อผู้รับ:
+	These settings will be used for new documents.	การตั้งค่าเหล่านี้จะใช้กับเอกสารใหม่
+	Thick	หนา
+	Thickness	ความหนา
+	This document	เอกสารนี้
+	This field has no options.	ฟิลด์นี้ไม่มีตัวเลือก
+	This folder can't be read: {error}	อ่านโฟลเดอร์นี้ไม่ได้: {error}
+	This font has no characters to show.	แบบอักษรนี้ไม่มีอักขระที่จะแสดง
+	this item is already at the top level	รายการนี้อยู่ที่ระดับบนสุดแล้ว
+	This page	หน้านี้
+	This password type isn't supported.	ไม่รองรับรหัสผ่านชนิดนี้
+	This point forward	จุดนี้เป็นต้นไป
+	This section	ส่วนนี้
+	Three	สาม
+	Through	ผ่าน
+	Tight	กระชับ
+	Tilde	เครื่องหมายทิลดา
+	Tips ({n})	เคล็ดลับ ({n})
+	Title	ชื่อเรื่อง
+preview	Title	ชื่อเรื่อง
+	Title Bar	แถบชื่อเรื่อง
+	Title from the document properties	ชื่อเรื่องจากคุณสมบัติเอกสาร
+	Title:	ชื่อเรื่อง:
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	หากต้องการเปิดเอกสาร Word ด้วย WordCraft เป็นค่าเริ่มต้น: เลือกเอกสารหนึ่งใน Finder เลือก ไฟล์ › รับข้อมูล เลือก WordCraft ใต้ เปิดด้วย แล้วคลิก เปลี่ยนทั้งหมด
+	TOA Heading	หัวเรื่องตารางอำนาจหน้าที่
+	TOC Heading	หัวเรื่องสารบัญ
+	TOC {n}	สารบัญ {n}
+	Today	วันนี้
+	tOGGLE cASE	สลับตัวพิมพ์ใหญ่เล็ก
+	Toggle Check Box	สลับช่องทำเครื่องหมาย
+	Toggle Field Codes	สลับรหัสฟิลด์
+	Toggle Unicode Character	สลับอักขระ Unicode
+	Tools	เครื่องมือ
+	Top	บน
+	Top and Bottom	บนและล่าง
+	Top Border	เส้นขอบบน
+	Top Left Cell	เซลล์บนซ้าย
+	Top Margin	ระยะขอบบน
+	Top of Page	ต้นหน้า
+	Top Right Cell	เซลล์บนขวา
+	Top:	บน:
+	Total	ผลรวมทั้งหมด
+	Total Row	แถวผลรวม
+	Track Changes	ติดตามการเปลี่ยนแปลง
+	Track Changes Options	ตัวเลือกการติดตามการเปลี่ยนแปลง
+	Track Changes: On	ติดตามการเปลี่ยนแปลง: เปิด
+	Track formatting	ติดตามการจัดรูปแบบ
+	Track\nChanges	ติดตาม\nการเปลี่ยนแปลง
+	Track\nChanges ✓	ติดตาม\nการเปลี่ยนแปลง ✓
+	Tracked changes	การเปลี่ยนแปลงที่ติดตามไว้
+	Tracking	การติดตาม
+	Trademark	เครื่องหมายการค้า
+	Trademark Sign	เครื่องหมายการค้า
+	Transform	แปลงรูป
+	Translate	แปลภาษา
+	Transparency	ความโปร่งใส
+	Transport	การขนส่ง
+	Triangle	สามเหลี่ยม
+	Triangle Down	สามเหลี่ยมชี้ลง
+	Triangle Up	สามเหลี่ยมชี้ขึ้น
+	Trigonometric Functions	ฟังก์ชันตรีโกณมิติ
+	Triple	สามเท่า
+	Triple Dot	จุดสามจุด
+	Triple Integral	ปริพันธ์สามชั้น
+	Triple Integral with Limits	ปริพันธ์สามชั้นพร้อมขอบเขต
+	Triple Integral with Stacked Limits	ปริพันธ์สามชั้นพร้อมขอบเขตซ้อน
+	Trust Center	ศูนย์ความเชื่อถือ
+	Tue	อ.
+	Turabian	ตูราเบียน
+	Turkish	ตุรกี
+	Two	สอง
+	Two-sided printing	การพิมพ์สองหน้า
+	Two-sided: long edge	สองหน้า: พลิกด้านยาว
+	Two-sided: short edge	สองหน้า: พลิกด้านสั้น
+	Type	ชนิด
+	Type +2 or -1 to move from the page you are on.	พิมพ์ +2 หรือ -1 เพื่อย้ายจากหน้าที่คุณอยู่
+	Type a command, e.g. "insert table"	พิมพ์คำสั่ง เช่น "แทรกตาราง"
+	Type a New List…	พิมพ์รายการใหม่…
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	พิมพ์ขนาดในหน่วยใดก็ได้ เช่น 5 cm หรือ 300 px อีกด้านจะเปลี่ยนตามเพื่อให้รูปภาพคงสัดส่วน
+	Type at least one recipient.	พิมพ์ผู้รับอย่างน้อยหนึ่งราย
+	Type Character Code	พิมพ์รหัสอักขระ
+	Type equations in LaTeX	พิมพ์สมการด้วย LaTeX
+	Type equations in the linear format (UnicodeMath)	พิมพ์สมการในรูปแบบเชิงเส้น (UnicodeMath)
+	Type in Equation	พิมพ์ในสมการ
+	Type normal (non-math) text in the equation	พิมพ์ข้อความปกติ (ไม่ใช่คณิตศาสตร์) ในสมการ
+	Type Text	พิมพ์ข้อความ
+	Type the categories down the side and a column of values per series.	พิมพ์หมวดหมู่ลงด้านข้าง และหนึ่งคอลัมน์ของค่าต่อหนึ่งชุดข้อมูล
+	Type the field's name and its switches, for example PAGE \\* roman.	พิมพ์ชื่อฟิลด์และสวิตช์ เช่น PAGE \\* roman
+	Type the password to stop the protection.	พิมพ์รหัสผ่านเพื่อหยุดการป้องกัน
+	Type the recipients, or load them from a file.	พิมพ์ผู้รับ หรือโหลดจากไฟล์
+	Type:	ชนิด:
+	Typing	การพิมพ์
+	Typing replaces selected text	การพิมพ์จะแทนที่ข้อความที่เลือก
+	Ukrainian	ยูเครน
+	Unchecked symbol	สัญลักษณ์ที่ไม่ได้ทำเครื่องหมาย
+	Underbar	เส้นล่าง
+	Underbrace	วงเล็บปีกกาด้านล่าง
+	Underline	ขีดเส้นใต้
+	Underline color	สีเส้นใต้
+	Underline Words Only	ขีดเส้นใต้เฉพาะคำ
+	Undo	เลิกทำ
+	Undo 1 Action	เลิกทำ 1 การกระทำ
+	Undo Actions	เลิกทำการกระทำ
+	Undo History	ประวัติการเลิกทำ
+	Undo {action}	เลิกทำ {action}
+	Undo {n} Actions	เลิกทำ {n} การกระทำ
+	Unformatted Text	ข้อความไม่มีรูปแบบ
+	Ungroup	ยกเลิกการจัดกลุ่ม
+	Union	ยูเนียน
+	Union of intersections	ยูเนียนของอินเตอร์เซกชัน
+	Union with Limits	ยูเนียนพร้อมขอบเขต
+	Union with Lower Limit	ยูเนียนพร้อมขอบเขตล่าง
+	Union with Plus	ยูเนียนพร้อมบวก
+	Union with Subscript-Superscript Limits	ยูเนียนพร้อมขอบเขตตัวห้อยและตัวยก
+	Unions and Intersections	ยูเนียนและอินเตอร์เซกชัน
+	Unlink Fields	ยกเลิกการเชื่อมโยงฟิลด์
+	Unlink\nCitations	ยกเลิกการเชื่อมโยง\nการอ้างอิง
+	Unlock Fields	ปลดล็อกฟิลด์
+	Up	ขึ้น
+	Up Diagonal Dots	จุดทแยงขึ้น
+	Up one level	ขึ้นหนึ่งระดับ
+	Update Field	อัปเดตฟิลด์
+	Update fields before printing	อัปเดตฟิลด์ก่อนพิมพ์
+	Update Index	อัปเดตดัชนี
+	Update Style to Match Selection	อัปเดตสไตล์ให้ตรงกับส่วนที่เลือก
+	Update Styles from Template	อัปเดตสไตล์จากแม่แบบ
+	Update Table	อัปเดตตาราง
+	Update Table of Figures	อัปเดตตารางรูปภาพ
+	Update to Match	อัปเดตให้ตรงกัน
+	Update to Match Selection	อัปเดตให้ตรงกับส่วนที่เลือก
+	UPPERCASE	ตัวพิมพ์ใหญ่ทั้งหมด
+	URGENT	ด่วนที่สุด
+	URL	URL
+	Use "a" before a consonant sound	ใช้ "a" ก่อนเสียงพยัญชนะ
+	Use "an" before a vowel sound	ใช้ "an" ก่อนเสียงสระ
+	Use an Existing List…	ใช้รายการที่มีอยู่…
+	Use system setting	ใช้การตั้งค่าของระบบ
+	Use the browser's full screen (F11)	ใช้เต็มหน้าจอของเบราว์เซอร์ (F11)
+	Use the Insert key to switch overtype on and off	ใช้ปุ่ม Insert เพื่อเปิดหรือปิดโหมดพิมพ์ทับ
+	Use wildcards	ใช้อักขระตัวแทน
+	User Name	ชื่อผู้ใช้
+	User name:	ชื่อผู้ใช้:
+	Username	ชื่อผู้ใช้
+	Value	ค่า
+	Vector A	เวกเตอร์ A
+	Vector AB	เวกเตอร์ AB
+	Version	เวอร์ชัน
+	Version History	ประวัติเวอร์ชัน
+	Version {version} ({build})	เวอร์ชัน {version} ({build})
+	Vertical	แนวตั้ง
+	Vertical Alignment	การจัดแนวตั้ง
+	Vertical alignment:	การจัดแนวตั้ง:
+	Vertical Bars	เส้นแนวตั้ง
+	Vertical Dots	จุดแนวตั้ง
+	View	มุมมอง
+	View Alt Text…	ดูข้อความแทนรูปภาพ…
+	View Gridlines	ดูเส้นตาราง
+	View State	ดูสถานะ
+	Views	มุมมอง
+	Visual effects	เอฟเฟกต์ภาพ
+	Voice	เสียง
+	Volume	ระดับเสียง
+	Volume Integral	ปริพันธ์ปริมาตร
+	Volume Integral with Limits	ปริพันธ์ปริมาตรพร้อมขอบเขต
+	Volume Integral with Stacked Limits	ปริพันธ์ปริมาตรพร้อมขอบเขตซ้อน
+	W:	W:
+	Waiting for the save to finish…	กำลังรอการบันทึกให้เสร็จ…
+	Waiting for Zotero…	กำลังรอ Zotero…
+	Warm Gradient with Outline	ไล่สีอบอุ่นพร้อมเส้นขอบ
+	Warnings ({n})	คำเตือน ({n})
+	Watermark	ลายน้ำ
+	Wave	คลื่น
+	Weather	สภาพอากาศ
+	Web Layout	เค้าโครงเว็บ
+	Web page (*.html)	หน้าเว็บ (*.html)
+	Web\nLayout	เค้าโครง\nเว็บ
+	Website	เว็บไซต์
+	Wed	พ.
+	Weight	น้ำหนัก
+	West	ตะวันตก
+	When this document was first created	เมื่อสร้างเอกสารนี้ครั้งแรก
+	When this document was most recently printed	เมื่อพิมพ์เอกสารนี้ครั้งล่าสุด
+	When this document was most recently saved	เมื่อบันทึกเอกสารนี้ครั้งล่าสุด
+	White space	ช่องว่างสีขาว
+	White Space	ช่องว่างสีขาว
+	Who the document properties name as author	ผู้ที่คุณสมบัติเอกสารระบุว่าเป็นผู้เขียน
+	Whole document	ทั้งเอกสาร
+	Whole page	ทั้งหน้า
+	Whole Table	ทั้งตาราง
+	Whole words	ทั้งคำ
+	Wide	กว้าง
+	Widow/Orphan Control	ควบคุมบรรทัดโดดเดี่ยว
+	Widow/Orphan control	ควบคุมบรรทัดโดดเดี่ยว
+	Width and spacing	ความกว้างและระยะห่าง
+	Width:	ความกว้าง:
+	Wildcards (regex)	อักขระตัวแทน (regex)
+	Window	หน้าต่าง
+	With:	ด้วย:
+	Word 2003 XML Document (*.xml)	เอกสาร Word 2003 XML (*.xml)
+	Word Count	จำนวนคำ
+	Word document	เอกสาร Word
+	Word document (*.docx)	เอกสาร Word (*.docx)
+	Word Left	คำทางซ้าย
+	Word level	ระดับคำ
+	Word Right	คำทางขวา
+	Word XML Document (*.xml)	เอกสาร Word XML (*.xml)
+	WordArt	WordArt
+	WordArt Styles	สไตล์ WordArt
+	WordCraft	WordCraft
+	WordCraft is now the default app for Word documents.	ตอนนี้ WordCraft เป็นแอปเริ่มต้นสำหรับเอกสาร Word แล้ว
+	Words	คำ
+	Words only	เฉพาะคำ
+	Wrap Text	ตัดข้อความ
+	Wrap Text Sides	ตัดข้อความรอบด้านข้าง
+	Wrap\nText	ตัด\nข้อความ
+	Write & Insert Fields	เขียนและแทรกฟิลด์
+	Write a reply	เขียนข้อความตอบกลับ
+	x bar	x bar
+	Year	ปี
+	Yes	ใช่
+	Yields	ได้ผลเป็น
+	Your changes will be lost if you don't save them.	การเปลี่ยนแปลงของคุณจะสูญหายหากไม่บันทึก
+	Your system doesn't report an animation setting, so animation effects stay on.	ระบบของคุณไม่รายงานการตั้งค่าภาพเคลื่อนไหว เอฟเฟกต์ภาพเคลื่อนไหวจึงยังเปิดอยู่
+	Your system has animation effects turned off.	ระบบของคุณปิดเอฟเฟกต์ภาพเคลื่อนไหว
+	Your system has animation effects turned on.	ระบบของคุณเปิดเอฟเฟกต์ภาพเคลื่อนไหว
+	Zoom	ซูม
+	Zoom In	ขยาย
+	Zoom Out	ย่อ
+	Zotero	Zotero
+	Zotero: cancelled	Zotero: ยกเลิกแล้ว
+	Zotero: done	Zotero: เสร็จแล้ว
+	{added}; {count} couldn't be read: {names}	{added}; อ่าน {count} รายการไม่ได้: {names}
+	{added}; {n} skipped (limit {max})	{added}; ข้าม {n} รายการ (จำกัด {max})
+	{cols}×{rows} Table	ตาราง {cols}×{rows}
+	{contributors} contributors · {commits} commits	ผู้ร่วมพัฒนา {contributors} คน · {commits} คอมมิต
+	{count} items highlighted	ไฮไลต์ {count} รายการ
+	{count} of {total} pages will print	จะพิมพ์ {count} จาก {total} หน้า
+	{count} of {total} recipients will be merged.	จะรวม {count} จาก {total} ผู้รับ
+	{group} settings	การตั้งค่า{group}
+	{key}+Click to follow link	{key}+คลิก เพื่อเปิดลิงก์
+	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
+	{language} (no dictionary)	{language} (ไม่มีพจนานุกรม)
+	{language} is now the document's default language.	ตอนนี้ {language} เป็นภาษาเริ่มต้นของเอกสารแล้ว
+	{language}: no dictionary found	{language}: ไม่พบพจนานุกรม
+	{language}: {file}	{language}: {file}
+	{names} and {n} more	{names} และอีก {n} รายการ
+	{name} already exists. Choose Save again to replace it.	{name} มีอยู่แล้ว เลือกบันทึกอีกครั้งเพื่อแทนที่
+	{name} is protected with a password.	{name} ป้องกันด้วยรหัสผ่าน
+	{name} options	ตัวเลือก {name}
+	{name} wasn't found.	ไม่พบ {name}
+	{n} entries marked.	ทำเครื่องหมาย {n} รายการแล้ว
+	{n} lines	{n} บรรทัด
+	{selected} of {words} words	{selected} จาก {words} คำ
+	{width} × {height} pixels	{width} × {height} พิกเซล
+	{words} words	{words} คำ
+	“{text}” ({row}, {series}) isn't a number.	“{text}” ({row}, {series}) ไม่ใช่ตัวเลข
+	✓ None	✓ ไม่มี
+	➕ New comment	➕ ความคิดเห็นใหม่
+	📂  Browse…	📂  เรียกดู…
